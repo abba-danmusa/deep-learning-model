@@ -1,0 +1,7090 @@
+@media only screen and (max-width : 767px) {
+
+    $all-size: 14px;
+    /*-- Default CSS --*/
+    body {
+        font-size: $all-size;
+    }
+    .ptb-100 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .pt-100 {
+        padding-top: 50px;
+    }
+    .pb-70 {
+        padding-bottom: 20px;
+    }
+    .pb-100 {
+        padding-bottom: 50px;
+    }
+    /*-- End Default CSS --*/
+
+    /*----- Home One CSS -----*/
+    /*-- Header Top --*/
+    .one-header-top {
+        padding-right: 15px;
+        padding-left: 15px;
+        text-align: center;
+
+        .header-social {
+            margin-bottom: 10px;
+        }
+        .header-partner {
+            display: none;
+        }
+        .header-call {
+            text-align: center;
+
+            ul {
+                li {
+                    margin-right: 0;
+                    margin-bottom: 3px;
+
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+    /*-- End Header Top --*/
+
+    /*-- Navbar --*/
+    .navbar-light .navbar-brand {
+        max-width: 90px;
+    }
+    .navbar-light .navbar-toggler {
+        font-size: 15px;
+    }
+    .navbar-light {
+        padding-left: 15px;
+        padding-right: 15px;
+
+        .navbar-nav {
+            text-align: center;
+        }
+        .side-nav {
+            position: absolute;
+            top: 5px;
+            right: 70px;
+
+            .side-nav-left {
+                margin-right: 5px;
+                font-size: 12px;
+            }
+            .side-nav-right {
+                padding: 4px 10px 7px;
+                font-size: 12px;
+
+                i {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    /*-- End Navbar --*/
+
+    /*-- Banner --*/
+    .one-banner-area {
+        text-align: center;
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+        .banner-shape {
+            display: none;
+        }
+        .container-fluid {
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+        .banner-text {
+            margin-left: 0;
+            margin-top: 0;
+            padding-right: 0;
+            max-width: 100%;
+
+            .banner-video {
+                margin-bottom: 15px;
+
+                a {
+                    font-size: 42px;
+
+                    i {
+                        width: 70px;
+                        height: 70px;
+                        line-height: 70px;
+                    }
+                }
+                span {
+                    font-size: 16px;
+                    top: -15px;
+                    margin-left: 10px;
+                }
+            }
+            h1 {
+                font-size: 40px;
+                line-height: unset;
+            }
+            p {
+                margin-bottom: 30px;
+                font-size: 18px;
+            }
+            .banner-form {
+                .banner-form-span {
+                    span {
+                        font-size: 17px;
+                        padding: 10px 22px;
+                    }
+                }
+                form {
+                    padding: 25px 0 25px;
+
+                    .form-group {
+                        .nice-select {
+                            margin-bottom: 15px;
+                        }
+                    }
+                    .banner-form-btn {
+                        margin-bottom: 15px;
+                    }
+                }
+            }
+        }
+        .banner-slider {
+            .banner-inner {
+                height: 100%;
+                padding-top: 150px;
+                padding-bottom: 150px;
+
+                img {
+                    display: none;          
+                }
+            }
+            .owl-prev {
+                width: 55px;
+                height: 50px;
+                font-size: 35px !important;
+                line-height: 60px !important;
+            }
+            .owl-next {
+                width: 55px;
+                height: 50px;
+                font-size: 35px !important;
+                line-height: 60px !important;
+            }
+        }
+        .owl-theme .owl-nav {
+            bottom: -25px;
+        }
+    }
+    /*-- End Banner --*/
+
+    /*-- About --*/
+    .one-section-title {
+        margin-bottom: 30px;
+
+        .sub-title {
+            font-size: 13px;
+            margin-bottom: 5px;
+
+            &:before {
+                width: 30px;
+                height: 2px;
+                right: -40px;
+            }
+        }
+        h2 {
+            font-size: 25px;
+        }
+    }
+    .one-about-area {
+        padding-top: 0;
+
+        .one-section-title {
+            text-align: center;
+        }
+        .about-img {
+            background-image: unset;
+            text-align: center;
+            
+            img {
+                display: block;
+            }
+        }
+        .about-content {
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 30px;
+            padding-bottom: 50px;
+            padding-right: 15px;
+            padding-left: 15px;
+
+            .about-tablist {
+                padding: 15px 15px 15px;
+
+                ul {
+                    margin-bottom: 10px;
+
+                    li {
+                        margin-right: 5px;
+                        margin-bottom: 5px;
+
+                        a {
+                            padding: 7px 7px 7px;
+                            display: inline-block;
+                        }
+                    }
+                }
+                p {
+                    font-size: 14px;
+                }
+            }
+            .about-best {
+                ul {
+                    text-align: center;
+
+                    li {
+                        flex: 0 0 100%;
+                        max-width: 100%;
+                        padding: 15px 20px 15px;
+                        margin-right: 15px;
+
+                        &:last-child {
+                            flex: 0 0 100%;
+                            max-width: 100%;
+                        }
+                        h4 {
+                            margin-bottom: 5px;
+                        }
+                        img {
+                            padding-right: 0;
+                            border-right: 0;
+                            margin-right: 2px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /*-- End About --*/
+
+    /*-- Counter --*/
+    .one-counter-area {
+        .counter-item {
+            margin-bottom: 50px;
+
+            h3 {
+                font-size: 50px;
+                line-height: 40px;
+            }
+            p {
+                font-size: 14px;
+                padding-left: 85px;
+                padding-top: 0;
+                position: relative;
+                top: 11px;
+            }
+        }
+    }
+    /*-- End Counter --*/
+
+    /*-- Service --*/
+    .one-service-area {
+        nav {
+            .nav-tabs {
+                .nav-default {
+                    flex: 0 0 50%;
+                    max-width: 50%;
+                    padding-left: 8px;
+                    padding-right: 8px;
+                }
+            }
+        }
+        .service-item {
+            padding: 20px 10px 18px;
+        }
+        .service-advisor {
+            padding: 15px 15px 15px;
+
+            .advisor-img {
+                margin-bottom: 30px;
+            }
+            .advisor-content {
+                h2 {
+                    font-size: 25px;
+                    margin-bottom: 10px;
+                }
+                p {
+                    margin-bottom: 15px;
+                }
+                ul {
+                    margin-bottom: 15px;
+
+                    li {
+                        font-size: $all-size;
+                    }
+                }
+                .advisor-link {
+                    a {
+                        font-size: $all-size;
+                    }
+                }
+            }
+        }
+    }
+    /*-- End Service --*/
+
+    /*-- Help --*/
+    .one-help-area {
+        .help-img {
+            position: relative;
+            top: 0;
+            right: 0;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .help-item {
+            ul {
+                li {   
+                    flex: 0 0 100%;
+                    max-width: 100%;
+                    margin-bottom: 30px;
+
+                    .help-icon {
+                        i {
+                            font-size: 35px;
+                            width: 65px;
+                            height: 55px;
+                            line-height: 55px;
+                        }
+                    }
+                    .help-inner {
+                        padding-left: 85px;
+
+                        p {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+            .advisor-link {
+                a {
+                    font-size: $all-size;
+                }
+            }
+        }
+    }
+    /*-- End Help --*/
+
+    /*-- Among --*/
+    .one-among-area {
+        .among-item {
+            &:hover {
+                .among-top {
+                    .among-icon {
+                        left: 38%;
+                    }
+                }
+            }
+            .among-top {
+                .among-icon {
+                    left: 15px;
+                    width: 60px;
+                    height: 60px;
+
+                    i {
+                        width: 60px;
+                        height: 60px;
+                        line-height: 60px;
+                        font-size: 45px;
+                    }
+                }
+            }
+            .among-bottom {
+                padding: 38px 15px 30px;
+
+                h3 {
+                    margin-bottom: 10px;
+                }
+                p {
+                    margin-bottom: 10px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    /*-- End Among --*/
+
+    /*-- Quote --*/
+    .one-quote-area {
+        padding-bottom: 50px;
+
+        .quote-content {
+            padding: 20px 15px 30px;
+            text-align: center;
+
+            h3 {
+                font-size: 20px;
+                margin-bottom: 8px;
+            }
+            p {
+                font-size: 14px;
+            }
+            a {
+                padding: 8px 55px 12px;
+                font-size: 15px;
+
+                i {
+                    top: 4px;
+                    margin-right: 3px;
+                }
+            }
+        }
+        .quote-img {
+            background-image: unset;
+
+            img {
+                display: block;
+            }
+        }
+    }
+    /*-- End Quote --*/
+
+    /*-- Search --*/
+    .one-search-area {
+        text-align: center;
+
+        .search-wrap {
+            .search-img {
+                position: relative;
+                bottom: 0;
+                margin-top: 30px;
+            
+            }
+        }
+        .search-content {
+            .one-section-title {
+                text-align: center;
+                margin-bottom: 30px;
+            }
+            .form-check {
+                margin-bottom: 5px;
+
+                label {
+                    font-size: 16px;
+                }
+            }
+            input[type='radio']:after {
+                top: 0;
+            }
+            .row {
+                margin-top: 23px;
+
+                .form-group {
+                    margin-bottom: 20px;
+                }
+            }
+            .search-link {
+                .btn {
+                    padding: 13px 60px 13px;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    /*-- End Search --*/
+
+    /*-- Team --*/
+    .one-team-area {
+        .one-section-title {
+            text-align: center;
+
+            a {
+                padding: 10px 22px 10px 18px;
+                font-size: 15px;
+                position: relative;
+                margin-top: 15px;
+
+                i {
+                    font-size: 20px;
+                }
+            }
+        }
+        .team-item {
+            .team-img {
+                &:before {
+                    display: none;
+                }
+            }
+            span {
+                font-size: 14px;
+            }
+        }
+    }
+    /*-- End Team --*/
+
+    /*-- FAQ --*/
+    .one-faq-area {
+        .faq-img {
+            position: relative;
+            margin-top: 30px;
+        }
+        .faq-content {
+            .accordion {
+                a {
+                    font-size: 17px;
+                    padding: 15px 30px 15px 15px;
+            
+                    &:after {
+                        width: 30px;
+                        height: 30px;
+                        line-height: 32px;
+                        right: 6px;
+                        top: 13px;
+                        border-radius: 50%;
+                        font-size: 22px;
+                    }
+                }
+                p {
+                    padding: 0px 20px 25px 15px;
+                }
+            }
+        }
+    }
+    /*-- End FAQ --*/
+
+    /*-- Testimonial --*/
+    .one-testimonial-area {
+        .testimonial-item {
+            padding: 30px 15px 30px;
+        
+            .testimonial-top {
+                ul {
+                    &:before {
+                        left: -15px;
+                        width: 25%;
+                    }
+                    &:after {
+                        right: -15px;
+                        width: 25%;
+                    }
+                }
+            }
+        }
+    }
+    /*-- End Testimonial --*/
+    
+    /*-- Contact --*/
+    .one-contact-area {
+        padding-top: 50px;
+
+        .contact-img {
+            background-image: unset;
+            padding-right: 15px;
+            padding-left: 15px;
+
+            img {
+                display: block;
+            }
+        }
+        .contact-content {
+            padding: 30px 0 50px;
+            margin-left: auto;
+            margin-right: auto;
+
+            .one-section-title {
+                text-align: center;
+                margin-left: 0;
+            }
+            .contact-btn {
+                font-size: 15px;
+
+                i {
+                    font-size: 20px;
+                    top: 3px;
+                    margin-right: 1px;
+                }
+            }
+            .contact-emergency {
+                padding-left: 70px;
+
+                i {
+                    font-size: 55px;
+                }
+                span {
+                    font-size: $all-size;
+                }
+            }
+        }
+    }
+    /*-- End Contact --*/
+
+    /*-- Blog --*/
+    .one-blog-area {
+        .blog-item {
+            .blog-bottom {
+                padding: 20px 15px 20px;
+            }
+        }
+    }
+    /*-- End Blog --*/
+
+    /*-- Subscribe --*/
+    .one-subscribe-area {
+        .subscribe-wrap {
+            padding: 25px 15px 40px;
+
+            h2 {
+                font-size: 25px;
+                margin-bottom: 25px;
+            }
+            .newsletter-form {
+                .form-control {
+                    height: 50px;
+                }
+                .subscribe-btn {
+                    padding: 13px 20px 13px;
+                    position: relative;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+    /*-- End Subscribe --*/
+
+    /*-- Footer --*/
+    .one-footer-area {
+        .footer-item {
+            .footer-logo {
+                a {
+                    display: block;
+                    margin-bottom: 25px;
+                }
+                p {
+                    font-size: $all-size;
+                    margin-bottom: 10px;
+                }
+                ul {
+                    padding-top: 15px;
+                }
+            }
+            .footer-quick {
+                ul {
+                    li {
+                        a {
+                            font-size: $all-size;
+                        }
+                    }
+                }
+            }
+            .footer-address {
+                ul {
+                    li {
+                        font-size: $all-size;
+                    }
+                }
+            }
+        }
+        .copyright-area {
+            margin-top: 20px;
+            text-align: center;
+
+            .copyright-item {
+                ul {
+                    margin-bottom: 15px;
+
+                    li {
+                        margin-right: 5px;
+                        margin-bottom: 5px;
+
+                        &:last-child {
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+                p {
+                    font-size: $all-size;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    /*-- End Footer --*/
+    /*----- End Home One CSS -----*/
+
+    /*----- Back to Top CSS ------*/
+    #toTop {
+        bottom: 10px;
+    }
+    .back-to-top-btn {
+        i {
+            height: 45px;
+            width: 45px;
+            line-height: 45px;
+            margin-right: 20px;
+        }
+    }
+    /*----- End Back to Top CSS -----*/
+
+    /*----- Home Two CSS -----*/
+    /*-- Banner --*/
+    .two-banner-one {
+        background-image: url('../img/home-two/banner-slider1.jpg');
+    }
+    .two-banner-area {
+        height: 100%;
+        
+        .banner-content {
+            margin-top: 0;
+            padding-top: 100px;
+            padding-bottom: 100px;
+
+            span {
+                font-size: 22px;
+                margin-bottom: 10px;
+
+                img {
+                    position: relative;
+                    top: -2px;
+                }
+            }
+            h1 {
+                font-size: 48px;
+                line-height: 60px;
+                margin-bottom: 35px;
+            }
+            .banner-btn {
+                a {
+                    i {
+                        margin-right: 3px;
+                    }
+                }
+                .cmn-banner-btn {
+                    margin-right: 5px;
+                }
+                .banner-right-btn {
+                    padding: 11px 17px 14px;
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+    .cmn-banner-btn {
+        padding: 11px 17px 14px;
+        font-size: 15px;
+
+        i {
+            margin-right: 3px;
+        }
+    }
+    .two-banner-wrap {
+        .container-fluid {
+            padding-left: 30px;
+            padding-right: 30px;
+            position: relative;
+            padding-top: 50px;
+
+            .banner-time-left {
+                padding: 25px 15px 25px;
+
+                &:before {
+                    opacity: 1;
+                }
+                ul {
+                    li {
+                        margin-bottom: 20px;
+
+                        &:last-child {
+                            margin-bottom: 0;
+                        }
+                        span {
+                            font-size: 15px;
+                            margin-bottom: 3px;
+                        }
+                        p {
+                            font-size: 17px;
+                        }
+                        a {
+                            font-size: 17px;
+                        }
+                    }
+                }
+            }
+            .banner-time-right {
+                padding: 25px 15px 25px;
+
+                ul {
+                    li {
+                        margin-bottom: 20px;
+
+                        &:last-child {
+                            margin-bottom: 0;
+                        }
+                        span {
+                            font-size: 15px;
+                            margin-bottom: 3px;
+                        }
+                        p {
+                            font-size: 17px;
+                        }
+                        a {
+                            font-size: 17px;
+                        }
+                    }
+                }
+            }
+        }
+        .two-banner-slider {
+            .owl-prev {
+                display: none !important;
+            }
+            .owl-next {
+                display: none !important;
+            }
+        }
+    }
+    /*-- End Banner --*/
+
+    /*-- Mission --*/
+    .two-mission-area {
+        padding-bottom: 35px;
+
+        .mission-content {
+            margin-bottom: 0;
+
+            img {
+                margin-bottom: 30px;
+            }
+            .mission-bottom {
+                position: relative;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                padding-right: 15px;
+                padding-left: 15px;
+                text-align: center;
+
+                ul {
+                    li {
+                        border-right: 0;
+
+                        &:nth-child(1) {
+                            flex: 0 0 100%;
+                            max-width: 100%;
+                        }
+                        &:nth-child(2) {
+                            flex: 0 0 100%;
+                            max-width: 100%;
+                        }
+                        &:nth-child(3) {
+                            flex: 0 0 100%;
+                            max-width: 100%;
+                        }
+                        &:nth-child(4) {
+                            flex: 0 0 100%;
+                            max-width: 100%;
+                        }
+                        &:nth-child(5) {
+                            flex: 0 0 100%;
+                            max-width: 100%;
+                        }
+                        a {
+                            margin-right: 5px;
+                        }
+                        p {
+                            font-size: 17px;
+                            top: -12px;
+                            color: #0d1820;
+                        }
+                        .mission-item {
+                            padding: 15px 20px 15px;
+
+                            span {
+                                font-size: $all-size;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /*-- End Mission --*/
+
+    /*-- Counter --*/
+    .two-counter-area {
+        padding-top: 50px;
+    }
+    /*-- End Counter --*/
+
+    /*-- Among --*/
+    .two-among-area {
+        .among-item {
+            .among-top {
+                .among-icon {
+                    left: 40%;
+                }
+            }
+        }
+    }
+    /*-- End Among --*/
+
+    /*-- Address --*/
+    .two-address-area {
+        padding-bottom: 50px;
+
+        .one-quote-area {
+            position: relative;
+            bottom: 0;
+        }
+        .address-item {
+            ul {
+                margin-bottom: 12px;
+
+                li {
+                    a {
+                        font-size: 30px;
+
+                        i {
+                            width: 55px;
+                            height: 55px;
+                            line-height: 55px;
+                        }
+                    }
+                }
+            }
+            h3 {
+                font-size: 20px;
+                margin-bottom: 10px;
+            }
+            p {
+                margin-bottom: 0;
+            }
+        }
+    }
+    /*-- End Address --*/
+
+    /*-- Team --*/
+    .two-team-area {
+        padding-top: 50px;
+    }
+    /*-- End Team --*/
+
+    /*-- Help --*/
+    .two-help-area {
+        .help-img-two {
+            background-image: unset;
+            padding-right: 15px;
+            padding-left: 15px;
+            padding-bottom: 50px;
+
+            img {
+                display: block;
+            }
+        }
+        .help-item {
+            margin-left: 15px;
+            padding-right: 15px;
+            padding-top: 50px;
+            padding-bottom: 30px;
+        }
+    }
+    /*-- End Help --*/
+
+    /*-- Lover --*/
+    .two-lover-area {
+        .lover-item {
+            text-align: center;
+            
+            ul {
+                padding: 20px 15px 22px;
+
+                li {
+                    flex: 0 0 100%;
+                    max-width: 100%;
+
+                    &:last-child {
+                        flex: 0 0 100%;
+                        max-width: 100%;
+                    }
+                    .lover-img {
+                        margin-bottom: 20px;
+
+                        &:before {
+                            display: none;
+                        }
+                        i {
+                            width: 35px;
+                            height: 35px;
+                            line-height: 35px;
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /*-- End Lover --*/
+
+    /*-- Contact --*/
+    .two-contact-area {
+        .contact-content {
+            padding-top: 0;
+            padding-bottom: 0;
+            margin-left: 0;
+            position: relative;
+        }
+    }
+    /*-- End Contact --*/
+
+    /*-- Subscribe --*/
+    .two-subscribe-area {
+        .subscribe-wrap {
+            padding: 0;
+        }
+    }
+    /*-- End Subscribe --*/
+    /*----- End Home Two CSS -----*/
+
+    /*----- Home Three CSS -----*/
+    /*-- Banner --*/
+    .three-banner-area {
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+        height: 100%;
+        padding-top: 100px;
+        padding-bottom: 50px;
+
+        .banner-content {
+            span {
+                font-size: 20px;
+                margin-bottom: 12px;
+            }
+            h1 {
+                font-size: 38px;
+                margin-bottom: 12px;
+            }
+            p {
+                margin-bottom: 15px;
+                font-size: 16px;
+            }
+            ul {
+                li {
+                    margin-bottom: 25px;
+
+                    &:last-child {
+                        margin-top: 0;
+                    }
+                    .cmn-banner-btn {
+                        margin-right: 20px;
+                    }
+                    span {
+                        font-size: 17px;
+                    }
+                }
+            }
+        }
+        .banner-img {
+            img {
+                &:nth-child(2) {
+                    display: none;
+                }
+                &:nth-child(3) {
+                    display: none;
+                }
+            }
+        }
+    }
+    /*-- End Banner --*/
+
+    /*-- About --*/
+    .three-about-area {
+        padding-top: 50px;
+        
+        .about-img {
+            img {
+                &:nth-child(2) {
+                    display: none;
+                }
+                &:nth-child(3) {
+                    display: none;
+                }
+            }
+            .about-inner {
+                padding: 12px 15px 14px;
+
+                h3 {
+                    font-size: 25px;
+                }
+                p {
+                    font-size: $all-size;
+                }
+            }
+        }
+        .about-content {
+            .two-section-title {
+                margin-bottom: 30px;
+            }
+            .about-mission {
+                .nav-pills {
+                    margin-bottom: 20px;
+
+                    li {
+                        margin-right: 5px;
+
+                        a {
+                            font-size: 14px;
+                            padding: 10px 18px 10px 16px;
+                        }
+                        .nav-default {
+                            position: relative;
+                            z-index: 1;
+                        }
+                    }
+                }
+                .tab-content {
+                    p {
+                        margin-bottom: 12px;
+                    }
+                    ul {
+                        margin-bottom: 25px;
+
+                        li {
+                            font-size: $all-size;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .two-section-title {
+        h2 {
+            font-size: 25px;
+        }
+    }
+    /*-- End About --*/
+
+    /*-- Among --*/
+    .three-among-area {
+        padding-bottom: 50px;
+
+        .one-quote-area {
+            position: relative;
+            bottom: 0;
+        }
+    }
+    /*-- End Among --*/
+
+    /*-- Process --*/
+    .three-process-area {
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+        .two-section-title {
+            margin-bottom: 50px;
+        }
+        .container-fluid {
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+        .process-item {
+            padding: 45px 15px 30px 20px;
+            margin-bottom: 70px;
+            margin-left: auto;
+            
+            &:before {
+                display: none;
+            }
+            &:nth-child(2) {
+                margin-left: 0;
+            }
+            &:nth-child(3) {
+                margin-bottom: 0;
+            }
+            .process-span {
+                left: 20px;
+                width: 60px;
+                height: 60px;
+                line-height: 60px;
+
+                span {
+                    width: 60px;
+                    height: 60px;
+                    line-height: 60px;
+                    font-size: 22px;
+                }
+            }
+            p {
+                font-size: $all-size;
+            }
+        }
+        .process-two {
+            margin-left: 0;
+
+            &:nth-child(2) {
+                margin-right: 0;
+                margin-left: auto;
+            }
+        }
+        .process-img {
+            margin-top: 30px;
+            margin-bottom: 70px;
+
+            img {
+                &:nth-child(1) {
+                    margin-left: 0;
+                }
+                &:nth-child(2) {
+                    display: none;
+                }
+                &:nth-child(3) {
+                    display: none;
+                }
+                &:nth-child(4) {
+                    display: none;
+                }
+                &:nth-child(5) {
+                    display: none;
+                }
+                &:nth-child(6) {
+                    display: none;
+                }
+                &:nth-child(7) {
+                    display: none;
+                }
+            }
+        }
+    }
+    /*-- End Process --*/
+
+    /*-- Team --*/
+    .three-team-area {
+        .team-call {
+            p {
+                font-size: 16px;
+                padding-left: 60px;
+
+                a {
+                    font-size: 20px;
+                    display: block;
+                }
+                i {
+                    left: -8px;
+                    bottom: 3px;
+                }
+            }
+        }
+    }
+    /*-- End Team --*/
+
+    /*-- Loan --*/
+    .three-loan-area {
+        .sorting-menu {
+            margin-bottom: 40px;
+
+            ul {
+                li {
+                    font-size: 18px;
+                    margin-left: 26px;
+                    margin-right: 10px;
+                    margin-bottom: 10px; 
+
+                    i {
+                        font-size: 30px;
+                        left: -32px;
+                    }
+                }
+            }
+        }
+    }
+    /*-- End Loan --*/
+
+    /*-- Contact --*/
+    .three-contact-area {
+        .contact-content {
+            padding: 30px 15px 30px;
+            margin-left: 0;
+
+            .two-section-title {
+                h2 {
+                    font-size: 25px;
+                }
+            }
+            .contact-btn {
+                padding: 11px 20px 12px 18px;
+            }
+        }
+    }
+    /*-- End Contact --*/
+
+    /*-- Review --*/
+    .three-review-area {
+        .three-review-slider {
+            .review-item {
+                margin-bottom: 10px;
+
+                i {
+                    font-size: 80px;
+                    margin-bottom: 8px;
+                }
+                h2 {
+                    font-size: 20px;
+                    margin-bottom: 30px;
+                    line-height: 34px;
+                }
+                .review-bottom {
+                    text-align: center;
+
+                    h3 {
+                        font-size: $all-size;
+                    }
+                }
+            }
+        }
+    }
+    /*-- End Review --*/
+
+    /*-- Join --*/
+    .three-join-area {
+        .row{
+            padding: 35px 15px 15px 15px;
+        }
+        .join-item {
+            text-align: center;
+            margin-bottom: 20px;
+
+            &:before {
+                display: none;
+            }
+            h3 {
+                font-size: 25px;
+            }
+            .cmn-banner-btn {
+                font-size: 15px;
+                padding: 10px 13px 13px 18px;
+
+                i {
+                    top: 5px;
+                }
+            }
+        }
+    }
+    /*-- End Join --*/
+
+    /*-- Subscribe --*/
+    .three-subscribe-area  {
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+        .subscribe-wrap {
+            padding: 0;
+        }
+    }
+    /*-- End Subscribe --*/
+    /*----- End Home Three CSS -----*/
+
+    /*----- Home Four CSS -----*/
+    /*-- Banner --*/
+    .navbar-light-four {
+        &.sticky-top {
+            position: sticky !important;
+            z-index: 1020;
+        }
+        .navbar-nav {
+            .nav-item {
+                .nav-link {
+                    display: inline-block;
+
+                    &:before {
+                        left: -13px;
+                    }
+                }
+            }
+        }
+    }
+    .three-section-title {
+        h2 {
+            font-size: 25px;
+        }
+    }
+    .four-banner-area {
+        padding-bottom: 100px;
+
+        .banner-form {
+            padding: 30px 20px 35px;
+
+            .three-section-title {
+                text-align: center;
+        
+                h2 {
+                    font-size: 25px;
+                }
+            }
+            ul {
+                li {
+                    a {
+                        font-size: $all-size;
+                    }
+                }
+            }
+            form {
+                .cmn-banner-btn {
+                    font-size: 15px;
+                    padding: 12px 26px 14px 30px;
+                }
+            }
+        }
+    }
+    /*-- End Banner --*/
+
+    /*-- About --*/
+    .four-about-area {
+        padding-top: 50px;
+
+        .about-content {
+            margin-left: 0;
+            padding-right: 0;
+
+            .about-mission {
+                .tab-content {
+                    p {
+                        margin-bottom: 25px;
+                    }
+                }
+            }
+        }
+        .about-img {
+            padding-right: 15px;
+
+            .about-inner {
+                left: 0;
+            }
+        }
+    }
+    /*-- End About --*/
+
+    /*-- Expect --*/
+    .four-expect-area {
+        .expect-item {
+            padding: 35px 15px 35px 75px;
+
+            .expect-icon {
+                i {
+                    top: 40px;
+                    left: 7px;
+                
+                }
+            }
+            a {
+                font-size: $all-size;
+            }
+        }
+    }
+    /*-- End Expect --*/
+
+    /*-- Quote --*/
+    .four-quote-area {
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+        .quote-content {
+            padding: 28px 25px 35px;
+        }
+    }
+    /*-- End Quote --*/
+
+    /*-- Record --*/
+    .four-record-area {
+        .record-img {
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+        .record-content {
+            margin-left: 0;
+
+            .record-item {
+                h3 {
+                    font-size: 72px;
+                    line-height: 55px;
+                }
+            }
+        }
+    }
+    /*-- End Record --*/
+
+    /*-- Step --*/
+    .four-step-area {
+        .container-fluid {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        .step-item {
+            background-color: #fff;
+            position: relative;
+            padding: 55px 15px 25px 25px;
+            border-radius: 4px;
+            margin-top: 40px;
+        }
+        .step-one {
+            margin-top: 40px;
+        }
+    }
+    /*-- End Step --*/
+
+    /*-- Loan --*/
+    .four-loan-area {
+        padding-bottom: 20px;
+    }
+    /*-- End Loan --*/
+
+    /*-- Join --*/
+    .four-join-area {
+        margin-top: 50px;
+        padding-bottom: 50px;
+    }
+    .four-team-area {
+        .team-item {
+            h3 {
+                font-size: 18px;
+            }
+        }
+    }
+    /*-- End Join --*/
+
+    /*-- FAQ --*/
+    .four-faq-area {
+        .faq-content {
+            margin-right: auto;
+
+            .accordion {
+                li {
+                    a {
+                        font-size: 17px;
+                        padding: 20px 45px 20px 20px;
+
+                        &:after {
+                            top: 20px;
+                        }
+                    }
+                    p {
+                        padding: 0px 20px 25px 20px;
+                    }
+                }
+            }
+        }
+        .faq-img-two {
+            padding-right: 15px;
+        }
+    }
+    /*-- End FAQ --*/
+
+    /*-- Subscribe --*/
+    .four-subscribe-area {
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+        .subscribe-wrap {
+            padding: 0;
+        }
+    }
+    /*-- End Subscribe --*/
+    /*----- End Home Four CSS -----*/
+
+    /*----- Home Five CSS -----*/
+    /*-- Banner --*/
+    .five-banner-area {
+        height: 100%;
+        text-align: center;
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+        .banner-shape {
+            text-align: center;
+            padding-left: 15px;
+            padding-right: 15px;
+
+            img {
+                &:nth-child(2) {
+                    top: 0;
+                    right: 0;
+                    max-width: 100%;
+                    animation: none;
+                    position: relative;
+                }
+            }
+        }
+        .container-fluid {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        .banner-content {
+            span {
+                font-size: 20px;
+                margin-bottom: 12px;
+            }
+            h1 {
+                font-size: 38px;
+
+                span {
+                    font-size: 38px;
+                }
+            }
+            p {
+                font-size: 16px;
+                margin-bottom: 30px;
+            }
+            .banner-form {
+                .banner-form-btn {
+                    margin-bottom: 15px;
+                }
+                ul {
+                    li {
+                        .nav-default {
+                            font-size: $all-size;
+                        }
+                    }
+                }
+                .tab-content {
+                    form {
+                        padding: 15px 15px 15px;
+
+                        .nice-select {
+                            margin-bottom: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /*-- End Banner --*/
+
+    /*-- About --*/
+    .five-about-area {
+        padding-top: 50px;
+    }
+    /*-- End About --*/
+
+    /*-- Quote --*/
+    .five-quote-area {
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+
+        .three-section-title {
+            text-align: center;
+            margin-bottom: 30px;
+
+            h2 {
+                font-size: 25px;
+            }
+        }
+        .quote-wrap {
+            padding-top: 30px;
+            padding-bottom: 30px;
+
+            .quote-btn {
+                text-align: center;
+
+                a {
+                    font-size: $all-size;
+                    padding: 10px 25px 12px 25px;
+
+                    i {
+                        font-size: 19px;
+                    }
+                }
+            }
+        }
+        .quote-img {
+            img {
+                position: relative;
+                right: 0;
+            }
+        }
+    }
+    /*-- End Quote --*/
+
+    /*-- Service --*/
+    .five-service-area {
+        .service-item {
+            padding: 25px 15px 25px;
+
+            ul {
+                li {
+                    font-size: $all-size;
+                }
+            }
+            .cmn-banner-btn {
+                padding: 10px 16px 12px 17px;
+                margin-right: 5px;
+                margin-bottom: 10px;
+            }
+            .service-btn {
+                padding: 10px 16px 12px 17px;
+                font-size: 15px;
+            }
+        }
+    }
+    /*-- End Service --*/
+
+    /*-- Counter --*/
+    .five-counter-area {
+        padding-top: 50px;
+
+        .counter-item {
+            h3 {
+                font-size: 70px;
+            }
+            span {
+                font-size: 16px;
+            }
+        }
+        .counter-two {
+            margin-top: 0;
+        }
+    }
+    /*-- End Counter --*/
+
+    /*-- Subscribe --*/
+    .five-subscribe-area {
+        .subscribe-wrap {
+            padding-top: 30px;
+            padding-bottom: 45px;
+            text-align: center;
+
+            h2 {
+                margin-left: 0;
+            }
+            .newsletter-form {
+                margin-left: 0;
+            }
+            .sub-img {
+                position: relative;
+                margin-top: 30px;
+            }
+        }
+    }
+    /*-- End Subscribe --*/
+    /*----- End Home Five CSS -----*/
+
+    /*----- Home Six CSS -----*/
+    /*-- Banner --*/
+    .six-banner-area {
+        height: 100%;
+        position: relative;
+        padding-top: 115px;
+        padding-bottom: 100px;
+
+        &:before {
+            position: absolute;
+            content: '';
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background-color: #000;
+            opacity: .50;
+        }
+        .banner-img {
+            display: none;
+        }
+        .banner-content {
+            span {
+                color: #fff;
+            }
+            h1 {
+                font-size: 45px;
+                color: #fff;
+
+                span {
+                    font-size: 45px;
+                    color: #fff;
+                }
+            }
+            ul {
+                li {
+                    span {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+    /*-- End Banner --*/
+
+    /*-- Quote --*/
+    .six-quote-area {
+        padding-top: 30px;
+        padding-bottom: 35px;
+
+        .quote-wrap {
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+    }
+    /*-- End Quote --*/
+
+    /*-- About --*/
+    .six-about-area {
+        padding-top: 0;
+
+        .about-shape {
+            display: none;
+        }
+        .about-img {
+            margin-top: 30px;
+
+            img {
+                &:nth-child(2) {
+                    display: block;
+                }
+            }
+        }
+    }
+    /*-- End About --*/
+
+    /*-- Contact --*/
+    .six-contact-area {
+        padding-bottom: 50px;
+
+        .contact-content {
+            top: 0;
+
+            .three-section-title {
+                h2 {
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+    /*-- End Contact --*/
+
+    /*-- Counter --*/
+    .six-counter-area {
+        padding-top: 50px;
+
+        .counter-item {
+            .progress {
+                margin-bottom: 0;
+            }
+            .progress-content {
+                p {
+                    font-size: 15px;
+                }
+            }
+        }
+        
+        
+    }
+    /*-- End Counter --*/
+
+    /*-- Nearly --*/
+    .six-nearly-area {
+        .nearly-content {
+            margin-right: 15px;
+
+            .nav-tabs {
+                padding-top: 15px;
+                padding-bottom: 15px;
+                padding-left: 15px;
+
+                .nav-default {
+                    font-size: 15px;
+                    padding-right: 10px;
+                    margin-right: 10px;
+                }
+            }
+            .tab-content {
+                padding-left: 15px;
+                padding-top: 15px;
+                padding-right: 15px;
+                padding-bottom: 20px;
+            }
+        }
+        .nearly-img {
+            background-image: unset;
+            padding-left: 15px;
+            margin-top: 30px;
+
+            img {
+                display: block;
+            }
+        }
+    }
+    /*-- End Nearly --*/
+
+    /*-- FAQ --*/
+    .six-faq-area {
+        .faq-img {
+            margin-top: 0;
+        }
+    }
+    /*-- End FAQ --*/
+
+    /*-- Subscribe --*/
+    .six-subscribe-area {
+        margin-top: 0;
+
+        .subscribe-wrap {
+            padding-left: 15px;
+
+            .sub-img {
+                right: 0;
+            }
+        }
+    }
+    /*-- End Subscribe --*/
+
+    /*-- Hour --*/
+    .six-hour-area {
+        padding-top: 40px;
+        padding-bottom: 10px;
+        padding-left: 0;
+        padding-right: 0;
+
+        .hour-item {
+            &:before {
+                display: none;
+            }
+        }
+    }
+    /*-- End Hour --*/
+    /*----- End Home Six CSS -----*/
+    .navbar-light .navbar-toggler {
+
+        &:focus {
+            box-shadow: none;
+        }
+    }
+    .navbar-light .side-nav {
+        width: auto;
+    }
+    .five-lover-area .lover-item ul li .lover-content .lover-inner-img {
+        position: relative;
+        bottom: -7px;
+    }
+
+    /*
+    New Demo Responsive CSS
+    ======================================================*/ 
+
+    .main-section-title {
+        margin-bottom: 35px;
+
+        h2 {
+            font-size: 28px;
+        }
+    }
+
+    .main-top-header {
+        .container-fluid {
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+            max-width: 540px;
+        }
+    }
+    .top-header-information {
+        text-align: center;
+    }
+    .top-header-social {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .main-navbar {
+        .navbar {
+            .container-fluid {
+                padding-right: var(--bs-gutter-x,.75rem);
+                padding-left: var(--bs-gutter-x,.75rem);
+                max-width: 540px;
+            }
+            &.navbar-style-two {
+                background-color: #ffffff !important;
+
+                &.navbar-light {
+                    .logo {
+                        padding: 0 35px 0 0;
+                    }
+                    .others-option {
+                        &.d-flex {
+                            display: block !important;
+                        }
+                        .option-item {
+                            margin-right: 10px;
+
+                            &:first-child {
+                                margin-right: 0;
+                            }
+                            .call-btn {
+                                display: none;
+                            }
+                            .log-in {
+                                color: #0d1820;
+                            }
+                            .sign-up {
+                                background: #00C195;
+                                color: #ffffff;
+                            }
+                        }
+                    }
+                }
+            }
+            &.navbar-style-black-color {
+                &.navbar-light {
+                    .navbar-toggler {
+                        color: #ffffff;
+                        border-color: #ffffff;
+                        background-color: #ffffff;
+                    }
+                }
+            }
+            &.navbar-light {
+                .others-option {
+                    .option-item {
+                        margin-right: 0;
+                        margin-bottom: 15px;
+
+                        &:last-child {
+                            margin-bottom: 0;
+                        }
+                    }
+                    .d-flex {
+                        display: block !important;
+                    }
+                }
+            }
+        }
+        .navbar-light {
+            .navbar-nav {
+                text-align: start;
+
+                .nav-item {
+                    margin-top: 18px;
+
+                    a {
+                        margin-left: 0 !important;
+                        margin-right: 0 !important;
+                    }
+                }
+            }
+            .others-option {
+                margin-top: 20px;
+            }
+        }
+    }
+
+    .main-header-area {
+        .main-navbar {
+            .container-fluid {
+                padding-right: var(--bs-gutter-x,.75rem);
+                padding-left: var(--bs-gutter-x,.75rem);
+                max-width: 540px;
+            }
+            .navbar {
+                &.navbar-light {
+                    .logo {
+                        img {
+                            max-width: 125px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .main-banner-area {
+        padding: {
+            top: 50px;
+            bottom: 50px;
+        };
+        .container-fluid {
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+            max-width: 540px;
+        }
+        position: relative;
+        z-index: 1;
+
+        &::before {
+            position: absolute;
+            content: "";
+            height: 100%;
+            width: 100%;
+            background-color: #ffffff;
+            left: 0;
+            right: 0;
+            top: 0;
+            z-index: -1;
+            opacity: .77;
+        }
+    }
+    .main-banner-content {
+        h1 {
+            font-size: 30px;
+        }
+        .banner-popup {
+            margin-top: 18px;
+            left: 0;
+        }
+    }
+    .main-banner-form-wrap {
+        padding: 30px 20px;
+        margin-top: 30px;
+        margin: 30px auto 0;
+
+        h3 {
+            font-size: 20px;
+        }
+        form {
+            .form-group {
+                label {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    .about-style-image {
+        &::before {
+            width: 280px;
+        }
+        .quote-content {
+            max-width: 275px;
+            padding: 20px;
+        }
+    }
+    .about-style-content {
+        padding-left: 0;
+        margin-top: 30px;
+
+        h3 {
+            font-size: 25px;
+        }
+        .counter-box {
+            padding: 20px;
+
+            h4 {
+                font-size: 35px;
+            }
+            span {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .core-service-list-tab {
+        .nav {
+            .nav-item {
+                width: 100%;
+                margin-right: 0;
+
+                &:first-child {
+                    .nav-link {
+                        border-radius: 0;
+                    }
+                }
+                &:last-child {
+                    .nav-link {
+                        border-radius: 0;
+                    }
+                }
+            }
+        }
+        .tab-content {
+            .tab-pane {
+                padding: 25px 20px;
+            }
+        }
+        .core-service-content {
+            .icon {
+                i {
+                    height: 55px;
+                    width: 55px;
+                    line-height: 55px;
+                    font-size: 28px;
+                }
+            }
+            h3 {
+                font-size: 22px;
+            }
+            .list {
+                li {
+                    font-size: 14.5px;
+                }
+            }
+        }
+        .core-service-image {
+            margin-top: 25px;
+        }
+    }
+
+    .buying-home-area {
+        .container-fluid {
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+            max-width: 540px;
+        }
+    }
+    .buying-home-image {
+        &::before {
+            width: 260px;
+        }
+        .counter-box {
+            h4 {
+                font-size: 35px;
+            }
+            span {
+                font-size: 14px;
+            }
+        }
+    }
+    .buying-home-content {
+        padding-left: 0;
+        margin-top: 30px;
+
+        h3 {
+            font-size: 25px;
+        }
+        .buying-inner-box {
+            padding-left: 70px;
+
+            .icon {
+                i {
+                    width: 50px;
+                    height: 50px;
+                    line-height: 50px;
+                    font-size: 32px;
+                } 
+            } 
+            h4 {
+                font-size: 16.5px;
+            }
+        }      
+    }
+
+    .mortgage-quote-content {
+        padding: 30px 20px;
+
+        h3 {
+            font-size: 25px;
+        }
+    }
+    .mortgage-quote-image {
+        height: 350px;
+        border-radius: 0;
+    }
+
+    .why-choose-us-card {
+        .choose-content {
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .find-loan-officer-form {
+        padding: 30px 25px;
+
+        h3 {
+            font-size: 20px;
+        }
+        .loan-check-box {
+            .form-check {
+                margin-right: 10px;
+
+                .form-check-input {
+                    font-size: 14px;
+                }
+                .form-check-label {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    .find-loan-officer-image {
+        padding-left: 0;
+        margin-top: 30px;
+
+        &::before {
+            width: 260px;
+        }
+    }
+
+    .need-help-faq-area {
+        .container-fluid {
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+            max-width: 540px;
+        }
+    }
+    .need-help-faq-content {
+        h3 {
+            font-size: 25px;
+        }
+        .need-help-faq-accordion {
+            .accordion-item {
+                .accordion-button {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    .need-help-faq-image {
+        margin-left: 0;
+        margin-top: 30px;
+
+        &::before {
+            width: 230px;
+        }
+        .help-box {
+            h3 {
+                font-size: 25px;
+            }
+        }
+    }
+
+    .testimonials-style-content {
+        padding-left: 0;
+        margin-top: 30px;
+
+        h3 {
+            font-size: 25px;
+        }
+    }
+
+    .let-contact-area {
+        padding: {
+            top: 50px;
+            bottom: 50px;
+        };
+        .container-fluid {
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+            max-width: 540px;
+        }
+    }
+    .let-contact-form {
+        h3 {
+            font-size: 25px;
+        }
+    }
+    .let-contact-map {
+        padding-left: 0;
+        margin-top: 30px;
+
+        iframe {
+            border-radius: 10px;
+        }
+    }
+
+    .blog-style-left-card {
+        margin-bottom: 30px;
+
+        .blog-content {
+            .post-meta {
+                li {
+                    &:last-child {
+                        display: none;
+                    }
+                    &:nth-child(2) {
+                        display: none;
+                    }
+                }
+            }
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+    .blog-style-right-card {
+        padding-left: 0;
+
+        .card-box {
+            .blog-content {
+                h3 {
+                    font-size: 20px;
+                }
+                .post-meta {
+                    li {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    } 
+
+    .subscribe-style-wrap-content {
+        h2 {
+            font-size: 25px;
+            margin-bottom: 20px;
+        }
+        .newsletter-form {
+            .form-control {
+                height: 55px;
+            }
+            .main-default-btn {
+                padding: 15px;
+                position: relative;
+                top: 0;
+                right: 0;
+                margin-top: 10px;
+                width: 100%;
+            }
+        }
+    }
+
+    .footer-style-area {
+        .copyright-style-area {
+            margin-top: 25px;
+
+            .copyright-item {
+                text-align: center;
+
+                .payment-list {
+                    text-align: center;
+                    margin-top: 10px;
+
+                    li {
+                        a {
+                            img {
+                                max-width: 30px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .single-footer-widget {
+        &.ps-3 {
+            padding-left: 0 !important;
+        }
+        h3 {
+            font-size: 18px;
+        }
+        .quick-link {
+            li {
+                font-size: 14px;
+            }
+        }
+        .address-info {
+            li {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .banner-buy-area {
+        padding-bottom: 55px;
+
+        .container-fluid {
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+            max-width: 540px;
+        }
+    }
+    .banner-buy-content {
+        padding: 45px 20px;
+
+        h1 {
+            font-size: 30px;
+        }
+        .banner-buy-btn {
+            li {
+                .main-default-btn {
+                    padding: 15px 20px;
+                    font-size: 14px;
+                }
+                .main-optional-btn {
+                    padding: 15px 20px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    .offer-style-card {
+        .offer-content {
+            padding: 0px 20px 20px 20px;
+        }
+    }
+
+    .get-introduced-area {
+        .container-fluid {
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+            max-width: 540px;
+        }
+        &::before {
+            display: none;
+        }
+        &::after {
+            display: none;
+        }
+    }
+    .get-introduced-content {
+        h3 {
+            font-size: 25px;
+        }
+        .introduced-counter-item {
+            margin-top: 10px;
+
+            .counter-card {
+                h3 {
+                    font-size: 35px;
+                    color: #ffffff;
+                }
+                p {
+                    padding-left: 55px;
+                }
+            }
+        }
+    }
+    .get-introduced-image {
+        height: 450px;
+        border-radius: 10px;
+        margin: {
+            left: 0;
+            top: 30px;
+        };
+    }
+
+    .video-overview-image {
+        &::before {
+            margin: 15px;
+        }
+        .video-btn {
+            i {
+                width: 70px;
+                height: 70px;
+                line-height: 70px;
+                font-size: 40px;
+            }
+        }
+    }
+    .video-overview-content {
+        padding-left: 0;
+        margin-top: 30px;
+
+        .overview-inner-box {
+            padding-left: 65px;
+
+            .icon {
+                i {
+                    width: 45px;
+                    height: 45px;
+                    line-height: 45px;
+                    font-size: 30px;
+                }
+            }
+            h3 {
+                font-size: 18px;
+            }
+        }
+    }
+
+    .get-address-content {
+        h3 {
+            font-size: 25px;
+        }
+        .inner-box {
+            padding-left: 65px;
+
+            h4 {
+                font-size: 18px;
+            }
+        }
+    }
+    .get-address-form {
+        padding: 20px;
+        margin-left: 0;
+        margin-top: 30px;
+        
+        h3 {
+            font-size: 20px;
+        }
+    }
+
+    .testimonials-style-area-with-bg {
+        .testimonials-style-content {
+            padding: 30px 20px;
+        }
+        .testimonials-style-card {
+            .info {
+                padding-left: 75px;
+                padding-top: 30px;
+
+                i {
+                    height: 60px;
+                    width: 60px;
+                    line-height: 60px;
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+
+    .better-home-area {
+        padding-top: 150px;
+
+        .container-fluid {
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+            max-width: 540px;
+        }
+        .social-links {
+            display: none;
+        }
+    }
+    .better-home-content {
+        position: relative;
+        top: 0;
+
+        h1 {
+            font-size: 30px;
+        }
+        .better-home-btn {
+            li {
+                .main-default-btn {
+                    padding: 12px 20px;
+                    font-size: 14px;
+                }
+                .main-optional-btn {
+                    padding: 12px 20px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .better-home-image {
+        margin-top: 30px;
+
+        .video-btn {
+            left: 0;
+            height: 100px;
+            width: 100px;
+            line-height: 100px;
+            bottom: 15px;
+        }
+    }
+
+    .information-card {
+        padding-left: 65px;
+
+        .icon {
+            i {
+                height: 50px;
+                width: 50px;
+                line-height: 50px;
+                font-size: 25px;
+            }
+        }
+    }
+
+    .about-style-image-wrap {
+        text-align: center;
+        
+        .certified-image {
+            display: none;
+        }
+    }
+    .about-style-shape-1 {
+        display: none;
+    }
+    .about-style-wrap-content {
+        padding-left: 0;
+        margin-top: 30px;
+
+        h3 {
+            font-size: 25px;
+        }
+    }
+
+    .mortgage-quote-area-with-full-width {
+        .mortgage-quote-content {
+            padding: 30px 20px;
+        }
+    }
+
+    .beyond-style-list-tab {
+        #thumbs {
+            margin-bottom: 35px;
+
+            .tabs-item {
+                span {
+                    height: 40px;
+                    width: 40px;
+                    line-height: 40px;
+                    font-size: 18px;
+                }
+            }
+        }
+        #beyond-style-item {
+            .beyond-style-content {
+                h3 {
+                    font-size: 25px;
+                }
+            }
+            .beyond-style-image {
+                margin-top: 30px;
+            }
+        }
+        .owl-theme {
+            .owl-nav {
+                [class*=owl-] {
+                    font-size: 20px;
+                    height: 40px;
+                    width: 40px;
+                }
+            }
+        }
+    }
+    .beyond-style-shape {
+        display: none;
+    }
+
+    .fun-fact-style-card {
+        padding: 25px 25px 25px 65px;
+
+        h3 {
+            font-size: 30px;
+            top: 15.8px;
+            left: 20px;
+        }
+        p {
+            font-size: 14px;
+        }
+    }
+    .fun-fact-style-content {
+        padding-left: 0;
+        margin-top: 30px;
+
+        h3 {
+            font-size: 25px;
+        }
+    }
+
+    .find-own-loan-list-tab {
+        .nav {
+            .nav-item {
+                margin-right: 15px;
+            }
+        }
+    }
+    .find-own-loan-slider {
+        &.owl-theme {
+            .owl-nav {
+                [class*=owl-] {
+                    left: 0;
+                    position: relative;
+                    top: unset;
+                    transition: unset;
+                    bottom: 0;
+                    margin: 0 5px;
+
+                    &.owl-next {
+                        right: 0;
+                        left: auto;
+                    }
+                }
+            }
+        }
+    }
+    .find-own-loan-card {
+        .loan-content {
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .faq-style-image {
+        text-align: center;
+    }
+    .faq-style-area-with-full-width {
+        .faq-style-accordion {
+            margin-top: 30px;
+        }
+    }
+    .faq-style-accordion {
+        h3 {
+            font-size: 25px;
+        }
+    }
+
+    .staff-card {
+        .staff-content {
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .overview-style-inner-box {
+        padding: {
+            top: 50px;
+            bottom: 50px;
+            left: 10px;
+            right: 10px;
+        };
+        .content {
+            h3 {
+                font-size: 25px;
+            }  
+            .overview-btn {
+                margin-top: 20px;
+
+                li {
+                    margin-right: 5px;
+
+                    .main-default-btn {
+                        padding: 10px;
+                        font-size: 12px;
+                    }
+                    .main-optional-btn {
+                        padding: 10px;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }      
+    }
+    .overview-style-shape-1 {
+        display: none;
+    }
+
+    .choice-home-area {
+        padding: {
+            top: 70px;
+            bottom: 50px;
+        };
+        .container-fluid {
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+            max-width: 540px;
+        }
+        &::before {
+            display: none;
+        }
+        &::after {
+            display: none;
+        }
+    }
+    .choice-home-content {
+        position: relative;
+        top: 0;
+
+        h1 {
+            font-size: 30px;
+        }
+        .choice-home-btn {
+            display: inline-block;
+
+            li {
+                display: inline-block;
+                margin-bottom: 20px;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+    .mortgage-calculator-form {
+        padding: 25px;
+        margin-top: 35px;
+
+        h2 {
+            font-size: 18px;
+        }
+    }
+    .choice-home-information {
+        display: none;
+    }
+    .choice-home-social-links {
+        text-align: center;
+    }
+
+    .about-style-area-with-full-width {
+        .container-fluid {
+            max-width: 540px;
+        }
+    }
+    .about-style-full-content {
+        padding-right: 0;
+
+        h3 {
+            font-size: 25px;
+        }
+        .inner-content {
+            h4 {
+                font-size: 18px;
+            }  
+        }      
+    }
+    .about-full-image-wrap {
+        margin-top: 30px;
+
+        .counter-box {
+            h4 {
+                font-size: 35px;
+            }
+        }
+    }
+
+    .expect-style-card {
+        padding: 20px;
+
+        h3 {
+            font-size: 20px;
+        }
+    }
+
+    .find-own-loan-box {
+        .loan-content {
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .testimonials-style-content {
+        &.with-border-color {
+            border: none;
+            padding: 0;
+            border-radius: 0;
+        }
+    }
+
+    .faq-style-area-with-full-width-wrap {
+        .faq-style-accordion {
+            padding: 50px 15px;
+            max-width: 100%;
+
+            h3 {
+                font-size: 25px;
+            }
+        }
+    }
+    .faq-style-image-wrap {
+        height: 550px;
+    }
+
+    .confidence-home-area {
+        padding: {
+            top: 50px;
+            bottom: 50px;
+        };
+        .container-fluid {
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+            max-width: 540px;
+        }
+    }
+    .confidence-home-content {
+        position: relative;
+        top: 0;
+
+        h1 {
+            font-size: 30px;
+        }
+        .confidence-home-btn {
+            display: inline-block;
+
+            li {
+                margin-bottom: 20px;
+            }
+        }
+    }
+    .confidence-home-image {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .why-choose-us-item {
+        padding: 20px;
+
+        .choose-content {
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .get-quote-style-area {
+        padding: {
+            top: 50px;
+            bottom: 50px;
+        };
+    }
+    .get-quote-style-content {
+        top: 0;
+
+        h3 {
+            font-size: 25px;
+        }
+        .quote-btn {
+            li {
+                .main-default-btn {
+                    padding: 12px 15px;
+                    font-size: 14px;
+                }
+                .main-optional-btn {
+                    padding: 12px 15px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .get-quote-style-image {
+        margin-top: 30px;
+        text-align: center;
+    }
+    .get-quote-style-shape-1, .get-quote-style-shape-2 {
+        display: none;
+    }
+
+    .process-style-image {
+        text-align: center;
+        margin-top: 35px;
+    }
+
+    .blog-style-card {
+        padding: 20px;
+
+        h3 {
+            font-size: 20px;
+        }
+        .post-meta {
+            li {
+                font-size: 12px;
+            }
+        }
+    }
+
+    .find-own-loan-item {
+        .icon {
+            i {
+                height: 60px;
+                width: 60px;
+                line-height: 60px;
+                font-size: 30px;
+            }
+        }
+        .loan-content {
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .confidence-home-area-wrap {
+        border-radius: 0;
+        padding-top: 255px;
+        padding-bottom: 100px;
+
+        &::before {
+            border-radius: 0;
+        }
+    }
+    .confidence-home-wrap-content {
+        h1 {
+            font-size: 30px;
+        }
+        .confidence-home-btn {
+            margin-top: 25px;
+
+            li {
+                margin-right: 10px;
+
+                .main-default-btn {
+                    padding: 15px 18px;
+                    font-size: 14px;
+                }
+                .main-optional-btn {
+                    font-size: 14px;
+                    padding: 15px 18px;
+                }
+            }
+        }
+    }
+
+    .about-mortgage-calculator-form {
+        padding: 20px;
+        margin-top: 30px;
+
+        h2 {
+            font-size: 20px;
+        }
+    }
+
+    .offer-style-area-with-full-width {
+        .container-fluid {
+            left: 0;
+            position: relative;
+            max-width: 540px;
+        }
+    }
+    .offer-style-section-content {
+        margin-bottom: 30px;
+
+        h3 {
+            font-size: 25px;
+        }
+    }
+
+    .process-style-wrap-image {
+        padding: {
+            right: 0;
+            bottom: 0;
+        };
+        margin-top: 30px;
+        text-align: center;
+
+        &::before {
+            display: none;
+        }
+    }
+
+    .fun-fact-style-item {
+        padding: 25px 25px 25px 65px;
+
+        h3 {
+            font-size: 30px;
+            top: 15.8px;
+            left: 20px;
+        }
+        p {
+            font-size: 14px;
+        }
+    }
+
+    .faq-style-area-with-full-width-wrap {
+        &.bg-transparent {
+            .container-fluid {
+                padding-right: var(--bs-gutter-x,.75rem);
+                padding-left: var(--bs-gutter-x,.75rem);
+            }
+            .faq-style-accordion {
+                padding-left: 0;
+                margin-top: 30px;
+            }
+        }
+    }
+
+    .let-contact-form-with-gray-color {
+        margin-top: 30px;
+
+        form {
+            padding: 20px;
+        }
+    }
+    .information-shape-1, .information-shape-2 {
+        display: none;
+    }
+
+    .buy-now-btn {
+        left: 20px;
+        right: auto;
+        top: auto;
+        bottom: 20px;
+        transform: unset;
+        padding: 12px 15px;
+        font-size: 12px;
+
+        img {
+            display: none;
+        }
+    }
+
+    .dark-version {
+        right: 70px;
+        bottom: 22px;
+    }
+}
+
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+
+    $all-size: 14px;
+    /*-- Default CSS --*/
+    body {
+        font-size: $all-size;
+    }
+    .ptb-100 {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .pt-100 {
+        padding-top: 70px;
+    }
+    .pb-70 {
+        padding-bottom: 40px;
+    }
+    .pb-100 {
+        padding-bottom: 70px;
+    }
+    /*-- End Default CSS --*/
+
+    /*----- Home One CSS -----*/
+    /*-- Header Top --*/
+    .one-header-top {
+        padding-right: 15px;
+        padding-left: 15px;
+        text-align: center;
+
+        .header-social {
+            margin-bottom: 8px;
+        }
+        .header-partner {
+            margin-bottom: 8px;
+        }
+        .header-call {
+            text-align: center;
+        }
+    }
+    /*-- End Header Top --*/
+
+    /*-- Navbar --*/
+    .navbar-light .navbar-brand {
+        max-width: 120px;
+    }
+    .navbar-light .navbar-toggler {
+        font-size: 15px;
+    }
+    .navbar-light {
+        padding-left: 15px;
+        padding-right: 15px;
+
+        .navbar-nav {
+            text-align: center;
+        }
+        .side-nav {
+            position: absolute;
+            top: 13px;
+            right: 70px;
+
+            .side-nav-left {
+                margin-right: 5px;
+                font-size: 13px;
+            }
+            .side-nav-right {
+                padding: 7px 10px 8px;
+                font-size: 13px;
+
+                i {
+                    font-size: 16px;
+                    top: 3px;
+                }
+            }
+        }
+    }
+    /*-- End Navbar --*/
+
+    /*-- Banner --*/
+    .one-banner-area {
+        text-align: center;
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+        .banner-shape {
+            display: none;
+        }
+        .container-fluid {
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+        .banner-text {
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 0;
+            padding-right: 0;
+
+            .banner-video {
+                margin-bottom: 15px;
+
+                a {
+                    font-size: 42px;
+
+                    i {
+                        width: 70px;
+                        height: 70px;
+                        line-height: 70px;
+                    }
+                }
+                span {
+                    font-size: 16px;
+                    top: -15px;
+                    margin-left: 10px;
+                }
+            }
+            h1 {
+                font-size: 40px;
+                line-height: unset;
+            }
+            p {
+                margin-bottom: 30px;
+                font-size: 18px;
+            }
+            .banner-form {
+                .banner-form-span {
+                    span {
+                        font-size: 17px;
+                        padding: 10px 22px;
+                    }
+                }
+                form {
+                    padding: 25px 0 25px;
+
+                    .form-group {
+                        .nice-select {
+                            margin-bottom: 15px;
+                        }
+                    }
+                    .banner-form-btn {
+                        margin-bottom: 15px;
+                    }
+                }
+            }
+        }
+        .banner-slider {
+            .banner-inner {
+                height: 100%;
+                padding-top: 200px;
+                padding-bottom: 200px;
+
+                img {
+                    display: none;          
+                }
+            }
+            .owl-prev {
+                width: 55px;
+                height: 50px;
+                font-size: 35px !important;
+                line-height: 60px !important;
+            }
+            .owl-next {
+                width: 55px;
+                height: 50px;
+                font-size: 35px !important;
+                line-height: 60px !important;
+            }
+        }
+        .owl-theme .owl-nav {
+            bottom: -25px;
+        }
+    }
+    /*-- End Banner --*/
+
+    /*-- About --*/
+    .one-section-title {
+        margin-bottom: 30px;
+
+        .sub-title {
+            font-size: 13px;
+            margin-bottom: 5px;
+
+            &:before {
+                width: 30px;
+                height: 2px;
+                right: -40px;
+            }
+        }
+        h2 {
+            font-size: 30px;
+        }
+    }
+    .one-about-area {
+        padding-top: 0;
+
+        .one-section-title {
+            text-align: center;
+        }
+        .about-img {
+            background-image: unset;
+            text-align: center;
+            
+            img {
+                display: block;
+            }
+        }
+        .about-content {
+            margin-left: auto;
+            padding-top: 30px;
+            padding-bottom: 70px;
+            margin-right: auto;
+
+            .about-tablist {
+                padding: 15px 15px 15px;
+
+                ul {
+                    margin-bottom: 10px;
+
+                    li {
+                        margin-right: 5px;
+                        margin-bottom: 5px;
+
+                        a {
+                            padding: 7px 7px 7px;
+                            display: inline-block;
+                        }
+                    }
+                }
+                p {
+                    font-size: 14px;
+                }
+            }
+            .about-best {
+                ul {
+                    text-align: center;
+
+                    li {
+                        flex: 0 0 100%;
+                        max-width: 100%;
+                        padding: 15px 20px 15px;
+                        margin-right: 15px;
+
+                        &:last-child {
+                            flex: 0 0 100%;
+                            max-width: 100%;
+                        }
+                        h4 {
+                            margin-bottom: 5px;
+                        }
+                        img {
+                            padding-right: 0;
+                            border-right: 0;
+                            margin-right: 2px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /*-- End About --*/
+
+    /*-- Counter --*/
+    .one-counter-area {
+        .counter-item {
+            margin-bottom: 50px;
+
+            h3 {
+                font-size: 50px;
+                line-height: 40px;
+            }
+            p {
+                font-size: 14px;
+                padding-left: 85px;
+                padding-top: 0;
+                position: relative;
+                top: 11px;
+            }
+        }
+    }
+    /*-- End Counter --*/
+
+    /*-- Service --*/
+    .one-service-area {
+        nav {
+            .nav-tabs {
+                .nav-default {
+                    flex: 0 0 33.3333333333%;
+                    max-width: 33.3333333333%;
+                    padding-left: 8px;
+                    padding-right: 8px;
+                }
+            }
+        }
+        .service-item {
+            padding: 20px 8px 18px;
+        }
+        .service-advisor {
+            padding: 15px 15px 15px;
+
+            .advisor-img {
+                margin-bottom: 30px;
+
+                img {
+                    width: 100%;
+                }
+            }
+            .advisor-content {
+                h2 {
+                    font-size: 25px;
+                    margin-bottom: 10px;
+                }
+                p {
+                    margin-bottom: 15px;
+                }
+                ul {
+                    margin-bottom: 15px;
+
+                    li {
+                        font-size: $all-size;
+                    }
+                }
+                .advisor-link {
+                    a {
+                        font-size: $all-size;
+                    }
+                }
+            }
+        }
+    }
+    /*-- End Service --*/
+
+    /*-- Help --*/
+    .one-help-area {
+        .help-img {
+            position: relative;
+            top: 0;
+            right: 0;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .help-item {
+            ul {
+                li {   
+                    flex: 0 0 100%;
+                    max-width: 100%;
+                    margin-bottom: 30px;
+
+                    .help-icon {
+                        i {
+                            font-size: 35px;
+                            width: 65px;
+                            height: 55px;
+                            line-height: 55px;
+                        }
+                    }
+                    .help-inner {
+                        padding-left: 85px;
+
+                        p {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+            .advisor-link {
+                a {
+                    font-size: $all-size;
+                }
+            }
+        }
+    }
+    /*-- End Help --*/
+
+    /*-- Among --*/
+    .one-among-area {
+        .among-item {
+            &:hover {
+                .among-top {
+                    .among-icon {
+                        left: 38%;
+                    }
+                }
+            }
+            .among-top {
+                .among-icon {
+                    left: 15px;
+                    width: 60px;
+                    height: 60px;
+
+                    i {
+                        width: 60px;
+                        height: 60px;
+                        line-height: 60px;
+                        font-size: 45px;
+                    }
+                }
+            }
+            .among-bottom {
+                padding: 38px 15px 30px;
+
+                h3 {
+                    margin-bottom: 10px;
+                }
+                p {
+                    margin-bottom: 10px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    /*-- End Among --*/
+
+    /*-- Quote --*/
+    .one-quote-area {
+        padding-bottom: 70px;
+
+        .quote-content {
+            padding: 20px 15px 30px;
+            text-align: center;
+
+            h3 {
+                font-size: 25px;
+                margin-bottom: 8px;
+            }
+            p {
+                font-size: 14px;
+            }
+            a {
+                padding: 8px 55px 12px;
+                font-size: 15px;
+
+                i {
+                    top: 4px;
+                    margin-right: 3px;
+                }
+            }
+        }
+        .quote-img {
+            background-image: unset;
+
+            img {
+                display: block;
+                width: 100%;
+            }
+        }
+    }
+    /*-- End Quote --*/
+
+    /*-- Search --*/
+    .one-search-area {
+        text-align: center;
+
+        .search-wrap {
+            .search-img {
+                position: relative;
+                bottom: 0;
+                margin-top: 30px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+        .search-content {
+            margin-left: auto;
+            margin-right: auto;
+
+            .one-section-title {
+                text-align: center;
+                margin-bottom: 30px;
+            }
+            .form-check {
+                margin-bottom: 5px;
+
+                label {
+                    font-size: 16px;
+                }
+            }
+            input[type='radio']:after {
+                top: 0;
+            }
+            .row {
+                margin-top: 23px;
+
+                .form-group {
+                    margin-bottom: 20px;
+                }
+            }
+            .search-link {
+                a {
+                    padding: 13px 60px 13px;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    /*-- End Search --*/
+
+    /*-- Team --*/
+    .one-team-area {
+        .one-section-title {
+            text-align: center;
+
+            a {
+                padding: 10px 22px 10px 18px;
+                font-size: 15px;
+                position: relative;
+                margin-top: 15px;
+
+                i {
+                    font-size: 20px;
+                }
+            }
+        }
+        .team-item {
+            .team-img {
+                &:before {
+                    display: none;
+                }
+            }
+            span {
+                font-size: 14px;
+            }
+        }
+    }
+    /*-- End Team --*/
+
+    /*-- FAQ --*/
+    .one-faq-area {
+        .faq-img {
+            position: relative;
+            margin-top: 30px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .faq-content {
+            margin-left: auto;
+            margin-right: auto;
+
+            .accordion {
+                a {
+                    font-size: 17px;
+                    padding: 15px 30px 15px 15px;
+            
+                    &:after {
+                        width: 30px;
+                        height: 30px;
+                        line-height: 32px;
+                        right: 10px;
+                        top: 22px;
+                        border-radius: 50%;
+                        font-size: 22px;
+                    }
+                }
+                p {
+                    padding: 0px 20px 25px 15px;
+                }
+            }
+        }
+    }
+    /*-- End FAQ --*/
+
+    /*-- Testimonial --*/
+    .one-testimonial-area {
+        .testimonial-item {
+            padding: 30px 15px 30px;
+        
+            .testimonial-top {
+                ul {
+                    &:before {
+                        left: -15px;
+                        width: 25%;
+                    }
+                    &:after {
+                        right: -15px;
+                        width: 25%;
+                    }
+                }
+            }
+        }
+    }
+    /*-- End Testimonial --*/
+
+    /*-- Contact --*/
+    .one-contact-area {
+        padding-top: 70px;
+
+        .contact-img {
+            background-image: unset;
+            padding-right: 15px;
+            padding-left: 15px;
+
+            img {
+                display: block;
+            }
+        }
+        .contact-content {
+            padding: 30px 0 70px;
+            margin-left: 0;
+            margin-left: auto;
+            margin-right: auto;
+
+            .one-section-title {
+                text-align: center;
+                margin-left: 0;
+            }
+            .contact-btn {
+                font-size: 15px;
+
+                i {
+                    font-size: 20px;
+                    top: 3px;
+                    margin-right: 1px;
+                }
+            }
+            .contact-emergency {
+                padding-left: 70px;
+
+                i {
+                    font-size: 55px;
+                }
+                span {
+                    font-size: $all-size;
+                }
+            }
+        }
+    }
+    /*-- End Contact --*/
+
+    /*-- Blog --*/
+    .one-blog-area {
+        .blog-item {
+            .blog-bottom {
+                padding: 20px 15px 20px;
+            }
+        }
+    }
+    /*-- End Blog --*/
+
+    /*-- Subscribe --*/
+    .one-subscribe-area {
+        .subscribe-wrap {
+            padding: 25px 15px 40px;
+
+            h2 {
+                font-size: 30px;
+                margin-bottom: 25px;
+            }
+            .newsletter-form {
+                .form-control {
+                    height: 50px;
+                }
+                .subscribe-btn {
+                    padding: 15px 20px 13px;
+                }
+            }
+        }
+    }
+    /*-- End Subscribe --*/
+
+    /*-- Footer --*/
+    .one-footer-area {
+        .footer-item {
+            .footer-logo {
+                a {
+                    display: block;
+                    margin-bottom: 25px;
+                }
+                p {
+                    font-size: $all-size;
+                    margin-bottom: 10px;
+                }
+                ul {
+                    padding-top: 15px;
+                }
+            }
+            .footer-quick {
+                ul {
+                    li {
+                        a {
+                            font-size: $all-size;
+                        }
+                    }
+                }
+            }
+            .footer-address {
+                ul {
+                    li {
+                        font-size: $all-size;
+                    }
+                }
+            }
+        }
+        .copyright-area {
+            margin-top: 40px;
+            text-align: center;
+
+            .copyright-item {
+                ul {
+                    margin-bottom: 15px;
+
+                    li {
+                        margin-right: 5px;
+                        margin-bottom: 5px;
+
+                        &:last-child {
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+                p {
+                    font-size: $all-size;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    /*-- End Footer --*/
+    /*----- End Home One CSS -----*/
+
+    /*----- Home Two CSS -----*/
+    /*-- Banner --*/
+    .two-banner-area {
+        height: 100%;
+        
+        .banner-content {
+            margin-top: 0;
+            padding-top: 100px;
+            padding-bottom: 100px;
+
+            span {
+                font-size: 22px;
+                margin-bottom: 10px;
+
+                img {
+                    position: relative;
+                    top: -2px;
+                }
+            }
+            h1 {
+                font-size: 48px;
+                line-height: 60px;
+                margin-bottom: 35px;
+            }
+            .banner-btn {
+                a {
+                    i {
+                        margin-right: 3px;
+                    }
+                }
+                .cmn-banner-btn {
+                    margin-right: 5px;
+                }
+                .banner-right-btn {
+                    padding: 11px 17px 14px;
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+    .cmn-banner-btn {
+        padding: 11px 17px 14px;
+        font-size: 15px;
+
+        i {
+            margin-right: 3px;
+        }
+    }
+    .two-banner-wrap {
+        .container-fluid {
+            padding-left: 30px;
+            padding-right: 30px;
+            position: relative;
+            padding-top: 70px;
+
+            .banner-time-left {
+                padding: 25px 15px 25px;
+                text-align: center;
+
+                &:before {
+                    opacity: 1;
+                }
+                ul {
+                    li {
+                        margin-bottom: 20px;
+
+                        &:last-child {
+                            margin-bottom: 0;
+                        }
+                        span {
+                            font-size: 15px;
+                            margin-bottom: 3px;
+                        }
+                        p {
+                            font-size: 17px;
+                        }
+                        a {
+                            font-size: 17px;
+                        }
+                    }
+                }
+            }
+            .banner-time-right {
+                padding: 25px 15px 25px;
+                text-align: center;
+
+                ul {
+                    li {
+                        margin-bottom: 20px;
+
+                        &:last-child {
+                            margin-bottom: 0;
+                        }
+                        span {
+                            font-size: 15px;
+                            margin-bottom: 3px;
+                        }
+                        p {
+                            font-size: 17px;
+                        }
+                        a {
+                            font-size: 17px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /*-- End Banner --*/
+
+    /*-- Mission --*/
+    .two-mission-area {
+        padding-bottom: 40px;
+
+        .mission-content {
+            margin-bottom: 0;
+
+            img {
+                margin-bottom: 30px;
+            }
+            .mission-bottom {
+                position: relative;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                padding-right: 15px;
+                padding-left: 15px;
+                text-align: center;
+
+                ul {
+                    li {
+                        border-right: 0;
+
+                        &:nth-child(1) {
+                            flex: 0 0 100%;
+                            max-width: 100%;
+                        }
+                        &:nth-child(2) {
+                            flex: 0 0 25%;
+                            max-width: 25%;
+                        }
+                        &:nth-child(3) {
+                            flex: 0 0 25%;
+                            max-width: 25%;
+                        }
+                        &:nth-child(4) {
+                            flex: 0 0 25%;
+                            max-width: 25%;
+                        }
+                        &:nth-child(5) {
+                            flex: 0 0 25%;
+                            max-width: 25%;
+                        }
+                        a {
+                            margin-right: 5px;
+                        }
+                        p {
+                            font-size: 17px;
+                            top: -12px;
+                            color: #0d1820;
+                        }
+                        .mission-item {
+                            padding: 15px 20px 15px;
+
+                            span {
+                                font-size: $all-size;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /*-- End Mission --*/
+
+    /*-- Counter --*/
+    .two-counter-area {
+        padding-top: 70px;
+    }
+    /*-- End Counter --*/
+
+    /*-- Among --*/
+    .two-among-area {
+        .among-item {
+            .among-top {
+                .among-icon {
+                    left: 40%;
+                }
+            }
+            .among-bottom {
+                h3 {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    /*-- End Among --*/
+
+    /*-- Address --*/
+    .two-address-area {
+        padding-bottom: 70px;
+
+        .one-quote-area {
+            position: relative;
+            bottom: 0;
+        }
+        .address-item {
+            img {
+                width: 100%;
+            }
+            ul {
+                margin-bottom: 12px;
+
+                li {
+                    a {
+                        font-size: 30px;
+
+                        i {
+                            width: 55px;
+                            height: 55px;
+                            line-height: 55px;
+                        }
+                    }
+                }
+            }
+            h3 {
+                font-size: 20px;
+                margin-bottom: 10px;
+            }
+            p {
+                margin-bottom: 0;
+            }
+        }
+    }
+    /*-- End Address --*/
+
+    /*-- Team --*/
+    .two-team-area {
+        padding-top: 70px;
+    }
+    /*-- End Team --*/
+
+    /*-- Help --*/
+    .two-help-area {
+        .help-img-two {
+            background-image: unset;
+            padding-right: 15px;
+            padding-left: 15px;
+            padding-bottom: 70px;
+
+            img {
+                display: block;
+            }
+        }
+        .help-item {
+            margin-left: 15px;
+            padding-right: 15px;
+            padding-top: 70px;
+            padding-bottom: 30px;
+        }
+    }
+    /*-- End Help --*/
+
+    /*-- Contact --*/
+    .two-contact-area {
+        .contact-content {
+            padding-top: 0;
+            padding-bottom: 0;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+        }
+    }
+    /*-- End Contact --*/
+
+    /*-- Subscribe --*/
+    .two-subscribe-area {
+        .subscribe-wrap {
+            padding: 0;
+        }
+    }
+    /*-- End Subscribe --*/
+    /*----- End Home Two CSS -----*/
+
+    /*----- Home Three CSS -----*/
+    /*-- Banner --*/
+    .three-banner-area {
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+        height: 100%;
+        padding-top: 100px;
+        padding-bottom: 30px;
+
+        .banner-content {
+            span {
+                font-size: 20px;
+                margin-bottom: 12px;
+            }
+            h1 {
+                font-size: 46px;
+                margin-bottom: 12px;
+            }
+            p {
+                margin-bottom: 15px;
+                font-size: 16px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            ul {
+                li {
+                    margin-bottom: 25px;
+
+                    &:last-child {
+                        margin-top: 0;
+                    }
+                    .cmn-banner-btn {
+                        margin-right: 20px;
+                    }
+                    span {
+                        font-size: 17px;
+                    }
+                }
+            }
+        }
+        .banner-img {
+            img {
+                &:nth-child(2) {
+                    display: none;
+                }
+                &:nth-child(3) {
+                    display: none;
+                }
+            }
+        }
+    }
+    /*-- End Banner --*/
+
+    /*-- About --*/
+    .three-about-area {
+        padding-top: 70px;
+        
+        .about-img {
+            img {
+                &:nth-child(1) {
+                    width: 100%;
+                }
+                &:nth-child(2) {
+                    display: none;
+                }
+                &:nth-child(3) {
+                    display: none;
+                }
+            }
+            .about-inner {
+                padding: 12px 15px 14px;
+
+                h3 {
+                    font-size: 25px;
+                }
+                p {
+                    font-size: $all-size;
+                }
+            }
+        }
+        .about-content {
+            .two-section-title {
+                margin-bottom: 30px;
+            }
+            .about-mission {
+                .nav-pills {
+                    margin-bottom: 20px;
+
+                    li {
+                        margin-right: 5px;
+
+                        a {
+                            font-size: 14px;
+                            padding: 10px 18px 10px 16px;
+                        }
+                        .nav-default {
+                            position: relative;
+                            z-index: 1;
+                        }
+                    }
+                }
+                .tab-content {
+                    p {
+                        margin-bottom: 12px;
+                    }
+                    ul {
+                        margin-bottom: 25px;
+
+                        li {
+                            font-size: $all-size;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .two-section-title {
+        h2 {
+            font-size: 30px;
+        }
+    }
+    /*-- End About --*/
+
+    /*-- Among --*/
+    .three-among-area {
+        padding-bottom: 70px;
+
+        .one-quote-area {
+            position: relative;
+            bottom: 0;
+        }
+    }
+    /*-- End Among --*/
+
+    /*-- Process --*/
+    .three-process-area {
+        padding-top: 70px;
+        padding-bottom: 0;
+
+        .two-section-title {
+            margin-bottom: 50px;
+        }
+        .container-fluid {
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+        .process-item {
+            padding: 45px 15px 30px 20px;
+            margin-bottom: 70px;
+            
+            &:before {
+                display: none;
+            }
+            &:nth-child(2) {
+                margin-left: 0;
+            }
+            &:nth-child(3) {
+                margin-bottom: 70px;
+            }
+            .process-span {
+                left: 20px;
+                width: 60px;
+                height: 60px;
+                line-height: 60px;
+
+                span {
+                    width: 60px;
+                    height: 60px;
+                    line-height: 60px;
+                    font-size: 22px;
+                }
+            }
+            p {
+                font-size: $all-size;
+            }
+        }
+        .process-two {
+            margin-left: auto;
+
+            &:nth-child(2) {
+                margin-right: 0;
+                margin-left: auto;
+            }
+        }
+        .process-img {
+            margin-top: 30px;
+            margin-bottom: 70px;
+
+            img {
+                &:nth-child(1) {
+                    margin-left: 0;
+                }
+                &:nth-child(2) {
+                    display: none;
+                }
+                &:nth-child(3) {
+                    display: none;
+                }
+                &:nth-child(4) {
+                    display: none;
+                }
+                &:nth-child(5) {
+                    display: none;
+                }
+                &:nth-child(6) {
+                    display: none;
+                }
+                &:nth-child(7) {
+                    display: none;
+                }
+            }
+        }
+    }
+    /*-- End Process --*/
+
+    /*-- Team --*/
+    .three-team-area {
+        .team-call {
+            p {
+                font-size: 16px;
+
+                a {
+                    font-size: 20px;
+                }
+                i {
+                    left: -40px;
+                    bottom: 0;
+                }
+            }
+        }
+    }
+    /*-- End Team --*/
+
+    /*-- Loan --*/
+    .three-loan-area {
+        .sorting-menu {
+            margin-bottom: 40px;
+
+            ul {
+                li {
+                    font-size: 18px;
+                    margin-left: 26px;
+                    margin-right: 10px;
+                    margin-bottom: 10px; 
+
+                    i {
+                        font-size: 30px;
+                        left: -32px;
+                    }
+                }
+            }
+        }
+        .loan-item {
+            padding: 30px 15px 30px;
+
+            h3 {
+                font-size: 17px;
+            }
+        }
+    }
+    /*-- End Loan --*/
+
+    /*-- Contact --*/
+    .three-contact-area {
+        .contact-content {
+            padding: 30px 15px 30px;
+            margin-left: 0;
+            margin-left: auto;
+            margin-right: auto;
+
+            .two-section-title {
+                h2 {
+                    font-size: 25px;
+                }
+            }
+            .contact-btn {
+                padding: 11px 20px 12px 18px;
+            }
+        }
+    }
+    /*-- End Contact --*/
+
+    /*-- Review --*/
+    .three-review-area {
+        .three-review-slider {
+            .review-item {
+                margin-bottom: 10px;
+
+                i {
+                    font-size: 80px;
+                    margin-bottom: 8px;
+                }
+                h2 {
+                    font-size: 19px;
+                    margin-bottom: 30px;
+                    line-height: 34px;
+                }
+                .review-bottom {
+                    text-align: center;
+
+                    h3 {
+                        font-size: $all-size;
+                    }
+                }
+            }
+        }
+    }
+    /*-- End Review --*/
+
+    /*-- Join --*/
+    .three-join-area {
+        .row{
+            padding: 35px 15px 15px 15px;
+        }
+        .join-item {
+            text-align: center;
+            margin-bottom: 20px;
+
+            &:before {
+                display: none;
+            }
+            h3 {
+                font-size: 25px;
+            }
+            .cmn-banner-btn {
+                font-size: 15px;
+                padding: 10px 13px 13px 18px;
+
+                i {
+                    top: 5px;
+                }
+            }
+        }
+    }
+    /*-- End Join --*/
+
+    /*-- Subscribe --*/
+    .three-subscribe-area  {
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+        .subscribe-wrap {
+            padding: 0;
+        }
+    }
+    /*-- End Subscribe --*/
+    /*----- End Home Three CSS -----*/
+
+    /*----- Home Four CSS -----*/
+    /*-- Banner --*/
+    .navbar-light-four {
+        &.sticky-top {
+            position: sticky !important;
+            z-index: 1020;
+        }
+        .navbar-nav {
+            .nav-item {
+                .nav-link {
+                    display: inline-block;
+
+                    &:before {
+                        left: -13px;
+                    }
+                }
+            }
+        }
+    }
+    .three-section-title {
+        h2 {
+            font-size: 30px;
+        }
+    }
+    .four-banner-area {
+        padding-bottom: 100px;
+
+        .banner-form {
+            padding: 30px 20px 35px;
+
+            .three-section-title {
+                text-align: center;
+        
+                h2 {
+                    font-size: 30px;
+                }
+            }
+            ul {
+                li {
+                    a {
+                        font-size: $all-size;
+                    }
+                }
+            }
+            form {
+                .cmn-banner-btn {
+                    font-size: 15px;
+                    padding: 12px 26px 14px 30px;
+                }
+            }
+        }
+    }
+    /*-- End Banner --*/
+
+    /*-- About --*/
+    .four-about-area {
+        padding-top: 70px;
+
+        .about-content {
+            margin-left: 0;
+            padding-right: 0;
+
+            .about-mission {
+                .tab-content {
+                    p {
+                        margin-bottom: 25px;
+                    }
+                }
+            }
+        }
+        .about-img {
+            padding-right: 15px;
+
+            .about-inner {
+                left: 0;
+            }
+        }
+    }
+    /*-- End About --*/
+
+    /*-- Expect --*/
+    .four-expect-area {
+        .expect-item {
+            padding: 35px 15px 35px 75px;
+
+            .expect-icon {
+                i {
+                    top: 40px;
+                    left: 7px;
+                
+                }
+            }
+            a {
+                font-size: $all-size;
+            }
+        }
+    }
+    /*-- End Expect --*/
+
+    /*-- Quote --*/
+    .four-quote-area {
+        padding-top: 70px;
+        padding-bottom: 70px;
+
+        .quote-content {
+            padding: 28px 25px 35px;
+        }
+    }
+    /*-- End Quote --*/
+
+    /*-- Record --*/
+    .four-record-area {
+        .record-img {
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+        .record-content {
+            margin-left: 0;
+
+            .record-item {
+                h3 {
+                    font-size: 72px;
+                    line-height: 55px;
+                }
+            }
+        }
+    }
+    /*-- End Record --*/
+
+    /*-- Step --*/
+    .four-step-area {
+        .step-item {
+            background-color: #fff;
+            position: relative;
+            padding: 55px 15px 25px 25px;
+            border-radius: 4px;
+            margin-top: 40px;
+        }
+        .step-one {
+            margin-top: 40px;
+        }
+    }
+    /*-- End Step --*/
+
+    /*-- Loan --*/
+    .four-loan-area {
+        padding-bottom: 40px;
+    }
+    /*-- End Loan --*/
+
+    /*-- Join --*/
+    .four-join-area {
+        margin-top: 70px;
+        padding-bottom: 70px;
+    }
+    /*-- End Join --*/
+
+    /*-- FAQ --*/
+    .four-faq-area {
+        .faq-content {
+            margin-right: auto;
+
+            .accordion {
+                li {
+                    a {
+                        font-size: 17px;
+                    }
+                    p {
+                        padding: 0px 20px 25px 20px;
+                    }
+                }
+            }
+        }
+        .faq-img-two {
+            padding-right: 15px;
+        }
+    }
+    /*-- End FAQ --*/
+
+    /*-- Subscribe --*/
+    .four-subscribe-area {
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+        .subscribe-wrap {
+            padding: 0;
+        }
+    }
+    /*-- End Subscribe --*/
+    /*----- End Home Four CSS -----*/
+
+    /*----- Home Five CSS -----*/
+    /*-- Banner --*/
+    .five-banner-area {
+        height: 100%;
+        text-align: center;
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+        .banner-shape {
+            text-align: center;
+
+            img {
+                &:nth-child(2) {
+                    top: 0;
+                    right: 0;
+                    max-width: 100%;
+                    animation: none;
+                    position: relative;
+                }
+            }
+        }
+        .container-fluid {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        .banner-content {
+            span {
+                font-size: 20px;
+                margin-bottom: 12px;
+            }
+            h1 {
+                font-size: 45px;
+
+                span {
+                    font-size: 45px;
+                }
+            }
+            p {
+                font-size: 20px;
+                margin-bottom: 30px;
+            }
+            .banner-form {
+                .banner-form-btn {
+                    margin-bottom: 15px;
+                }
+                ul {
+                    li {
+                        .nav-default {
+                            font-size: $all-size;
+                        }
+                    }
+                }
+                .tab-content {
+                    form {
+                        padding: 15px 15px 15px;
+
+                        .nice-select {
+                            margin-bottom: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /*-- End Banner --*/
+
+    /*-- About --*/
+    .five-about-area {
+        padding-top: 70px;
+    }
+    /*-- End About --*/
+
+    /*-- Quote --*/
+    .five-quote-area {
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+
+        .three-section-title {
+            text-align: center;
+            margin-bottom: 30px;
+
+            h2 {
+                font-size: 25px;
+            }
+        }
+        .quote-wrap {
+            padding-top: 30px;
+            padding-bottom: 30px;
+
+            .quote-btn {
+                text-align: center;
+
+                a {
+                    font-size: $all-size;
+                    padding: 10px 25px 12px 25px;
+
+                    i {
+                        font-size: 19px;
+                    }
+                }
+            }
+        }
+        .quote-img {
+            img {
+                position: relative;
+                right: 0;
+            }
+        }
+    }
+    /*-- End Quote --*/
+
+    /*-- Service --*/
+    .five-service-area {
+        .service-item {
+            ul {
+                li {
+                    font-size: $all-size;
+                }
+            }
+            .cmn-banner-btn {
+                padding: 10px 16px 12px 17px;
+                margin-right: 5px;
+                margin-bottom: 10px;
+            }
+            .service-btn {
+                padding: 10px 16px 12px 17px;
+                font-size: 15px;
+            }
+        }
+    }
+    /*-- End Service --*/
+
+    /*-- Counter --*/
+    .five-counter-area {
+        padding-top: 70px;
+
+        .counter-item {
+            padding: 35px 10px 35px;
+
+            h3 {
+                font-size: 70px;
+            }
+            span {
+                font-size: 16px;
+            }
+        }
+        .counter-two {
+            margin-top: 0;
+        }
+    }
+    /*-- End Counter --*/
+
+    /*-- Subscribe --*/
+    .five-subscribe-area {
+        .subscribe-wrap {
+            padding-top: 30px;
+            padding-bottom: 45px;
+            text-align: center;
+
+            h2 {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .newsletter-form {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .sub-img {
+                position: relative;
+                margin-top: 30px;
+            }
+        }
+    }
+    /*-- End Subscribe --*/
+    /*----- End Home Five CSS -----*/
+
+    /*----- Home Six CSS -----*/
+    /*-- Banner --*/
+    .six-banner-area {
+        height: 100%;
+        position: relative;
+        padding-top: 115px;
+        padding-bottom: 100px;
+
+        &:before {
+            position: absolute;
+            content: '';
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background-color: #000;
+            opacity: .50;
+        }
+        .banner-img {
+            display: none;
+        }
+        .banner-content {
+            margin-left: auto;
+            margin-right: auto;
+
+            span {
+                color: #fff;
+            }
+            h1 {
+                font-size: 50px;
+                color: #fff;
+
+                span {
+                    font-size: 50px;
+                    color: #fff;
+                }
+            }
+            ul {
+                li {
+                    span {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+    /*-- End Banner --*/
+
+    /*-- Quote --*/
+    .six-quote-area {
+        padding-top: 30px;
+        padding-bottom: 35px;
+
+        .quote-wrap {
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+    }
+    /*-- End Quote --*/
+
+    /*-- About --*/
+    .six-about-area {
+        padding-top: 0;
+
+        .about-shape {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .about-img {
+            margin-top: 30px;
+
+            img {
+                &:nth-child(2) {
+                    display: block;
+                }
+            }
+        }
+    }
+    /*-- End About --*/
+
+    /*-- Contact --*/
+    .six-contact-area {
+        padding-bottom: 70px;
+
+        .contact-content {
+            top: 0;
+
+            .three-section-title {
+                h2 {
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+    /*-- End Contact --*/
+
+    /*-- Counter --*/
+    .six-counter-area {
+        padding-top: 70px;
+
+        .counter-item {
+            .progress {
+                margin-bottom: 0;
+            }
+            .progress-content {
+                p {
+                    font-size: 16px;
+                }
+            }
+        } 
+    }
+    /*-- End Counter --*/
+
+    /*-- Nearly --*/
+    .six-nearly-area {
+        .nearly-content {
+            margin-right: 15px;
+
+            .nav-tabs {
+                padding-top: 15px;
+                padding-bottom: 15px;
+                padding-left: 15px;
+
+                .nav-default {
+                    font-size: 15px;
+                    padding-right: 10px;
+                    margin-right: 10px;
+                }
+            }
+            .tab-content {
+                padding-left: 15px;
+                padding-top: 15px;
+                padding-right: 15px;
+                padding-bottom: 20px;
+            }
+        }
+        .nearly-img {
+            background-image: unset;
+            padding-left: 15px;
+            margin-top: 30px;
+
+            img {
+                display: block;
+                width: 100%;
+            }
+        }
+    }
+    /*-- End Nearly --*/
+
+    /*-- FAQ --*/
+    .six-faq-area {
+        .faq-img {
+            margin-top: 0;
+        }
+    }
+    /*-- End FAQ --*/
+    
+    /*-- Subscribe --*/
+    .six-subscribe-area {
+        margin-top: 0;
+
+        .subscribe-wrap {
+            padding-left: 15px;
+
+            .sub-img {
+                right: 0;
+            }
+        }
+    }
+    /*-- End Subscribe --*/
+
+    /*-- Hour --*/
+    .six-hour-area {
+        padding-top: 40px;
+        padding-bottom: 10px;
+        padding-left: 90px;
+        padding-right: 0;
+
+        .hour-item {
+            &:before {
+                display: none;
+            }
+        }
+    }
+    /*-- End Hour --*/
+    /*----- End Home Six CSS -----*/
+    .navbar-light .navbar-toggler {
+
+        &:focus {
+            box-shadow: none;
+        }
+    }
+    .navbar-light .side-nav {
+        width: auto;
+    }
+
+    /*
+    New Demo Responsive CSS
+    ======================================================*/ 
+
+    .main-section-title {
+        margin-bottom: 35px;
+
+        h2 {
+            font-size: 32px;
+        }
+    }
+
+    .main-top-header {
+        .container-fluid {
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+            max-width: 720px;
+        }
+    }
+
+    .main-navbar {
+        .navbar {
+            .container-fluid {
+                padding-right: var(--bs-gutter-x,.75rem);
+                padding-left: var(--bs-gutter-x,.75rem);
+                max-width: 720px;
+            }
+            &.navbar-style-two {
+                background-color: #ffffff !important;
+
+                &.navbar-light {
+                    .logo {
+                        padding: 0 35px 0 0;
+                    }
+                    .others-option {
+                        &.d-flex {
+                            display: block !important;
+                        }
+                        .option-item {
+                            margin-right: 30px;
+                            
+                            .call-btn {
+                                color: #0d1820;
+                            }
+                            .log-in {
+                                color: #0d1820;
+                            }
+                            .sign-up {
+                                background: #00C195;
+                                color: #ffffff;
+                            }
+                        }
+                    }
+                }
+            }
+            &.navbar-style-black-color {
+                &.navbar-light {
+                    .navbar-toggler {
+                        color: #ffffff;
+                        border-color: #ffffff;
+                        background-color: #ffffff;
+                    }
+                }
+            }
+        }
+        .navbar-light {
+            .navbar-nav {
+                text-align: start;
+
+                .nav-item {
+                    margin-top: 18px;
+
+                    a {
+                        margin-left: 0 !important;
+                        margin-right: 0 !important;
+                    }
+                }
+            }
+            .others-option {
+                margin-top: 20px;
+            }
+        }
+    }
+
+    .main-banner-area {
+        padding: {
+            top: 50px;
+            bottom: 50px;
+        };
+        .container-fluid {
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+            max-width: 720px;
+        }
+        position: relative;
+        z-index: 1;
+
+        &::before {
+            position: absolute;
+            content: "";
+            height: 100%;
+            width: 100%;
+            background-color: #ffffff;
+            left: 0;
+            right: 0;
+            top: 0;
+            z-index: -1;
+            opacity: .77;
+        }
+    }
+    .main-banner-content {
+        margin: auto;
+
+        h1 {
+            font-size: 55px;
+        }
+        .banner-popup {
+            margin-top: 18px;
+            left: 0;
+        }
+    }
+    .main-banner-form-wrap {
+        padding: 30px 20px;
+        margin-top: 30px;
+        margin: 30px auto 0;
+        
+        form {
+            .form-group {
+                label {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    .about-style-content {
+        padding-left: 0;
+        margin-top: 30px;
+
+        h3 {
+            font-size: 30px;
+        }
+        .counter-box {
+            padding: 20px;
+
+            h4 {
+                font-size: 35px;
+            }
+            span {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .core-service-list-tab {
+        .nav {
+            .nav-item {
+                width: 100%;
+                margin-right: 0;
+
+                &:first-child {
+                    .nav-link {
+                        border-radius: 0;
+                    }
+                }
+                &:last-child {
+                    .nav-link {
+                        border-radius: 0;
+                    }
+                }
+            }
+        }
+        .core-service-content {
+            .icon {
+                i {
+                    height: 55px;
+                    width: 55px;
+                    line-height: 55px;
+                    font-size: 28px;
+                }
+            }
+            h3 {
+                font-size: 28px;
+            }
+            .list {
+                li {
+                    font-size: 14.5px;
+                }
+            }
+        }
+        .core-service-image {
+            margin-top: 25px;
+        }
+    }
+
+    .buying-home-area {
+        .container-fluid {
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+            max-width: 720px;
+        }
+    }
+    .buying-home-image {
+        &::before {
+            width: 260px;
+        }
+        .counter-box {
+            h4 {
+                font-size: 35px;
+            }
+            span {
+                font-size: 14px;
+            }
+        }
+    }
+    .buying-home-content {
+        padding-left: 0;
+        margin-top: 30px;
+
+        h3 {
+            font-size: 30px;
+        }
+        .buying-inner-box {
+            padding-left: 70px;
+
+            .icon {
+                i {
+                    width: 50px;
+                    height: 50px;
+                    line-height: 50px;
+                    font-size: 32px;
+                } 
+            } 
+            h4 {
+                font-size: 16.5px;
+            }
+        }      
+    }
+
+    .mortgage-quote-content {
+        padding: 30px 20px;
+
+        h3 {
+            font-size: 30px;
+        }
+    }
+
+    .why-choose-us-card {
+        .choose-content {
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .find-loan-officer-form {
+        padding: 30px 25px;
+
+        h3 {
+            font-size: 20px;
+        }
+        .loan-check-box {
+            .form-check {
+                margin-right: 10px;
+
+                .form-check-input {
+                    font-size: 14px;
+                }
+                .form-check-label {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    .find-loan-officer-image {
+        padding-left: 0;
+        margin-top: 30px;
+
+        &::before {
+            width: 260px;
+        }
+    }
+
+    .need-help-faq-area {
+        .container-fluid {
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+            max-width: 720px;
+        }
+    }
+    .need-help-faq-content {
+        max-width: 692px;
+
+        h3 {
+            font-size: 25px;
+        }
+        .need-help-faq-accordion {
+            .accordion-item {
+                .accordion-button {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    .need-help-faq-image {
+        margin-left: 0;
+        margin-top: 30px;
+
+        &::before {
+            width: 230px;
+        }
+        .help-box {
+            h3 {
+                font-size: 25px;
+            }
+        }
+    }
+
+    .testimonials-style-content {
+        padding-left: 0;
+        margin-top: 30px;
+
+        h3 {
+            font-size: 30px;
+        }
+    }
+
+    .let-contact-area {
+        padding: {
+            top: 50px;
+            bottom: 50px;
+        };
+        .container-fluid {
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+            max-width: 720px;
+        }
+    }
+    .let-contact-form {
+        max-width: 705px;
+
+        h3 {
+            font-size: 25px;
+        }
+    }
+    .let-contact-map {
+        padding-left: 0;
+        margin-top: 30px;
+
+        iframe {
+            border-radius: 10px;
+        }
+    }
+
+    .blog-style-left-card {
+        margin-bottom: 30px;
+
+        .blog-content {
+            h3 {
+                font-size: 22px;
+            }
+        }
+    }
+    .blog-style-right-card {
+        padding-left: 0;
+
+        .card-box {
+            .blog-content {
+                h3 {
+                    font-size: 20px;
+                }
+                .post-meta {
+                    li {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    } 
+
+    .subscribe-style-wrap-content {
+        h2 {
+            font-size: 25px;
+            margin-bottom: 20px;
+        }
+        .newsletter-form {
+            .form-control {
+                height: 55px;
+            }
+            .main-default-btn {
+                padding: 15px;
+                position: relative;
+                top: 0;
+                right: 0;
+                margin-top: 10px;
+                width: 100%;
+            }
+        }
+    }
+
+    .footer-style-area {
+        .copyright-style-area {
+            margin-top: 25px;
+
+            .copyright-item {
+
+                .payment-list {
+                    margin-top: 10px;
+
+                    li {
+                        a {
+                            img {
+                                max-width: 30px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .single-footer-widget {
+        &.ps-3 {
+            padding-left: 0 !important;
+        }
+        h3 {
+            font-size: 18px;
+        }
+        .quick-link {
+            li {
+                font-size: 14px;
+            }
+        }
+        .address-info {
+            li {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .banner-buy-area {
+        padding-bottom: 55px;
+
+        .container-fluid {
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+            max-width: 720px;
+        }
+    }
+    .banner-buy-content {
+        padding: 45px 30px;
+
+        h1 {
+            font-size: 50px;
+        }
+        .banner-buy-btn {
+            li {
+                .main-default-btn {
+                    padding: 15px 20px;
+                    font-size: 14px;
+                }
+                .main-optional-btn {
+                    padding: 15px 20px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    .offer-style-card {
+        .offer-content {
+            padding: 0px 20px 20px 20px;
+        }
+    }
+
+    .get-introduced-area {
+        padding-bottom: 70px;
+
+        .container-fluid {
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+            max-width: 720px;
+        }
+        &::before {
+            display: none;
+        }
+        &::after {
+            display: none;
+        }
+    }
+    .get-introduced-content {
+        max-width: 695px;
+
+        h3 {
+            font-size: 30px;
+        }
+        .introduced-counter-item {
+            margin-top: 10px;
+
+            .counter-card {
+                h3 {
+                    font-size: 30px;
+                    color: #ffffff;
+                }
+                p {
+                    padding-left: 48px;
+                    padding-top: 8px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .get-introduced-image {
+        height: 450px;
+        border-radius: 10px;
+        margin: {
+            left: 0;
+            top: 30px;
+        };
+    }
+
+    .video-overview-image {
+        &::before {
+            margin: 15px;
+        }
+        .video-btn {
+            i {
+                width: 70px;
+                height: 70px;
+                line-height: 70px;
+                font-size: 40px;
+            }
+        }
+    }
+    .video-overview-content {
+        padding-left: 0;
+        margin-top: 30px;
+
+        .overview-inner-box {
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .get-address-content {
+        h3 {
+            font-size: 30px;
+        }
+        .inner-box {
+            padding-left: 65px;
+
+            h4 {
+                font-size: 20px;
+            }
+        }
+    }
+    .get-address-form {
+        padding: 30px;
+        margin-left: 0;
+        margin-top: 30px;
+        
+        h3 {
+            font-size: 20px;
+        }
+    }
+
+    .testimonials-style-area-with-bg {
+        .testimonials-style-card {
+            .info {
+                padding-left: 75px;
+                padding-top: 30px;
+
+                i {
+                    height: 60px;
+                    width: 60px;
+                    line-height: 60px;
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+
+    .better-home-area {
+        padding-top: 150px;
+
+        .container-fluid {
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+            max-width: 720px;
+        }
+        .social-links {
+            display: none;
+        }
+    }
+    .better-home-content {
+        position: relative;
+        top: 0;
+
+        h1 {
+            font-size: 50px;
+        }
+    }
+    .better-home-image {
+        margin-top: 30px;
+
+        .video-btn {
+            left: 0;
+            height: 100px;
+            width: 100px;
+            line-height: 100px;
+            bottom: 15px;
+        }
+    }
+
+    .information-card {
+        padding-left: 65px;
+
+        .icon {
+            i {
+                height: 50px;
+                width: 50px;
+                line-height: 50px;
+                font-size: 25px;
+            }
+        }
+    }
+
+    .about-style-image-wrap {
+        text-align: center;
+        
+        .certified-image {
+            display: none;
+        }
+    }
+    .about-style-shape-1 {
+        display: none;
+    }
+    .about-style-wrap-content {
+        padding-left: 0;
+        margin-top: 30px;
+
+        h3 {
+            font-size: 25px;
+        }
+    }
+
+    .mortgage-quote-area-with-full-width {
+        .mortgage-quote-content {
+            padding: 30px 20px;
+        }
+    }
+
+    .beyond-style-list-tab {
+        #thumbs {
+            margin-bottom: 35px;
+
+            .tabs-item {
+                span {
+                    height: 40px;
+                    width: 40px;
+                    line-height: 40px;
+                    font-size: 18px;
+                }
+            }
+        }
+        #beyond-style-item {
+            .beyond-style-content {
+                h3 {
+                    font-size: 25px;
+                }
+            }
+            .beyond-style-image {
+                margin-top: 30px;
+            }
+        }
+        .owl-theme {
+            .owl-nav {
+                [class*=owl-] {
+                    font-size: 20px;
+                    height: 40px;
+                    width: 40px;
+                }
+            }
+        }
+    }
+    .beyond-style-shape {
+        display: none;
+    }
+
+    .fun-fact-style-content {
+        padding-left: 0;
+        margin-top: 30px;
+
+        h3 {
+            font-size: 25px;
+        }
+    }
+
+    .find-own-loan-list-tab {
+        .nav {
+            .nav-item {
+                margin-right: 15px;
+            }
+        }
+    }
+    .find-own-loan-slider {
+        &.owl-theme {
+            .owl-nav {
+                [class*=owl-] {
+                    left: 0;
+                    position: relative;
+                    top: unset;
+                    transition: unset;
+                    bottom: 0;
+                    margin: 0 5px;
+
+                    &.owl-next {
+                        right: 0;
+                        left: auto;
+                    }
+                }
+            }
+        }
+    }
+    .find-own-loan-card {
+        .loan-content {
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .faq-style-image {
+        text-align: center;
+    }
+    .faq-style-area-with-full-width {
+        .faq-style-accordion {
+            margin-top: 30px;
+        }
+    }
+    .faq-style-accordion {
+        h3 {
+            font-size: 25px;
+        }
+    }
+
+    .staff-card {
+        .staff-content {
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .overview-style-inner-box {
+        padding: {
+            top: 50px;
+            bottom: 50px;
+            left: 10px;
+            right: 10px;
+        };
+        .content {
+            h3 {
+                font-size: 30px;
+            } 
+        }      
+    }
+    .overview-style-shape-1 {
+        display: none;
+    }
+
+    .choice-home-area {
+        padding: {
+            top: 70px;
+            bottom: 70px;
+        };
+        .container-fluid {
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+            max-width: 720px;
+        }
+        &::before {
+            display: none;
+        }
+        &::after {
+            display: none;
+        }
+    }
+    .choice-home-content {
+        position: relative;
+        top: 0;
+
+        h1 {
+            font-size: 50px;
+        }
+    }
+    .mortgage-calculator-form {
+        padding: 25px;
+        margin: 30px auto 0;
+
+        h2 {
+            font-size: 22px;
+        }
+    }
+    .choice-home-information {
+        display: none;
+    }
+    .choice-home-social-links {
+        text-align: center;
+    }
+
+    .about-style-area-with-full-width {
+        .container-fluid {
+            max-width: 720px;
+        }
+    }
+    .about-style-full-content {
+        padding-right: 0;
+        max-width: 690px;
+
+        h3 {
+            font-size: 25px;
+        }
+        .inner-content {
+            h4 {
+                font-size: 18px;
+            }  
+        }      
+    }
+    .about-full-image-wrap {
+        margin-top: 30px;
+
+        .counter-box {
+            h4 {
+                font-size: 35px;
+            }
+        }
+    }
+
+    .expect-style-card {
+        padding: 20px;
+
+        h3 {
+            font-size: 20px;
+        }
+    }
+
+    .find-own-loan-box {
+        .loan-content {
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .testimonials-style-content {
+        &.with-border-color {
+            padding: 25px;
+        }
+    }
+
+    .faq-style-area-with-full-width-wrap {
+        .faq-style-accordion {
+            padding: 50px 15px;
+            max-width: 100%;
+
+            h3 {
+                font-size: 25px;
+            }
+        }
+    }
+    .faq-style-image-wrap {
+        height: 550px;
+    }
+
+    .confidence-home-area {
+        padding: {
+            top: 80px;
+            bottom: 80px;
+        };
+        .container-fluid {
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+            max-width: 720px;
+        }
+    }
+    .confidence-home-content {
+        position: relative;
+        top: 0;
+
+        h1 {
+            font-size: 50px;
+        }
+    }
+    .confidence-home-image {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .why-choose-us-item {
+        padding: 20px;
+
+        .choose-content {
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .get-quote-style-area {
+        padding: {
+            top: 50px;
+            bottom: 50px;
+        };
+    }
+    .get-quote-style-content {
+        top: 0;
+
+        h3 {
+            font-size: 25px;
+        }
+        .quote-btn {
+            li {
+                .main-default-btn {
+                    padding: 12px 15px;
+                    font-size: 14px;
+                }
+                .main-optional-btn {
+                    padding: 12px 15px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .get-quote-style-image {
+        margin-top: 30px;
+        text-align: center;
+    }
+    .get-quote-style-shape-1, .get-quote-style-shape-2 {
+        display: none;
+    }
+
+    .process-style-image {
+        text-align: center;
+        margin-top: 35px;
+    }
+
+    .blog-style-card {
+        padding: 20px;
+
+        h3 {
+            font-size: 20px;
+        }
+    }
+
+    .find-own-loan-item {
+        .icon {
+            i {
+                height: 60px;
+                width: 60px;
+                line-height: 60px;
+                font-size: 30px;
+            }
+        }
+        .loan-content {
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .confidence-home-area-wrap {
+        border-radius: 0;
+        padding-top: 255px;
+        padding-bottom: 100px;
+
+        &::before {
+            border-radius: 0;
+        }
+    }
+    .confidence-home-wrap-content {
+        h1 {
+            font-size: 65px;
+        }
+    }
+
+    .about-mortgage-calculator-form {
+        padding: 30px;
+        margin-top: 30px;
+
+        h2 {
+            font-size: 20px;
+        }
+    }
+
+    .offer-style-area-with-full-width {
+        .container-fluid {
+            left: 0;
+            position: relative;
+            max-width: 720px;
+        }
+    }
+    .offer-style-section-content {
+        margin-bottom: 30px;
+
+        h3 {
+            font-size: 25px;
+        }
+    }
+
+    .process-style-wrap-image {
+        padding: {
+            right: 0;
+            bottom: 0;
+        };
+        margin-top: 30px;
+        text-align: center;
+
+        &::before {
+            display: none;
+        }
+    }
+
+    .faq-style-area-with-full-width-wrap {
+        &.bg-transparent {
+            .container-fluid {
+                padding-right: var(--bs-gutter-x,.75rem);
+                padding-left: var(--bs-gutter-x,.75rem);
+            }
+            .faq-style-accordion {
+                padding-left: 0;
+                margin-top: 30px;
+            }
+        }
+    }
+
+    .let-contact-form-with-gray-color {
+        margin-top: 30px;
+
+        form {
+            padding: 30px;
+        }
+    }
+    .information-shape-1, .information-shape-2 {
+        display: none;
+    }
+}
+
+@media only screen and (min-width : 992px) and (max-width : 1199px) {
+    
+    .navbar-light {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        margin-right: 10px;
+        margin-left: 10px;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+    .one-banner-area .banner-text {
+        max-width: 483px;
+        padding-right: 10px;
+    }
+    .one-banner-area .banner-text h1 {
+        font-size: 60px;
+        line-height: 80px;
+    }
+    .one-banner-area .banner-text .banner-form form .form-group .form-control {
+        padding-left: 15px;
+        font-size: 14px;
+    }
+    .one-banner-area .banner-text .banner-form form .form-group .form-control span {
+        font-size: 14px;
+    }
+    .one-banner-area .banner-text .banner-form form {
+        padding: 30px 0 30px;
+    }
+    .one-about-area .about-content .about-tablist ul li a {
+        display: inline-block;
+        margin-bottom: 5px;
+    }
+    .one-about-area .about-content .about-best ul li {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .one-about-area .about-content .about-best ul li:last-child {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .one-service-area .service-item {
+        padding: 20px 12px 18px;
+    }
+    .one-help-area .help-img {
+        position: relative;
+        top: 0;
+        right: 0;
+        max-width: 435px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+    .one-among-area .among-item .among-bottom {
+        padding: 38px 10px 30px;
+    }
+    .one-among-area .among-item .among-bottom h3 {
+        font-size: 17px;
+    }
+    .one-search-area .search-wrap .search-img {
+        position: relative;
+        bottom: 0;
+        right: 0;
+        max-width: 515px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+    .one-team-area .team-item .team-img:before {
+        display: none;
+    }
+    .one-faq-area .faq-img {
+        max-width: 285px;
+    }
+    .one-testimonial-area .testimonial-item {
+        padding: 30px 15px 30px;
+    }
+    .one-testimonial-area .testimonial-item .testimonial-top ul:after {
+        right: -14px;
+        width: 25%;
+    }
+    .one-testimonial-area .testimonial-item .testimonial-top ul:before {
+        left: -14px;
+        width: 25%;
+    }
+    .one-blog-area .blog-item .blog-bottom {
+        padding: 20px 10px 20px;
+    }
+    .one-blog-area .blog-item .blog-bottom h3 {
+        font-size: 18px;
+    }
+    .two-mission-area .mission-content .mission-bottom ul li .mission-item {
+        padding: 20px 10px 18px;
+    }
+    .two-help-area .help-item {
+        max-width: 560px;
+        padding-right: 30px;
+    }
+    .one-faq-area .faq-content .accordion a:after {
+        right: 10px;
+    }
+    .one-faq-area .faq-content .accordion a {
+        padding: 20px 45px 20px 35px;
+    }
+    .three-team-area .team-item .team-bottom h3 {
+        font-size: 18px;
+    }
+    .three-loan-area .loan-item {
+        padding: 30px 15px 30px;
+    }
+    .three-loan-area .loan-item h3 {
+        font-size: 19px;
+    }
+    .three-join-area .join-item h3 {
+        font-size: 25px;
+    }
+    .three-banner-area .banner-content h1 {
+        font-size: 88px;
+    }
+    .four-record-area .record-content .record-item h3 {
+        font-size: 66px;
+    }
+    .four-record-area .record-content .record-item span {
+        font-size: 15px;
+        padding-left: 98px;
+    }
+    .four-team-area .team-item {
+        padding: 25px 10px 25px;
+    }
+    .four-team-area .team-item h3 {
+        font-size: 19px;
+    }
+    .four-team-area .team-item h3:before {
+        left: -10px;
+    }
+    .four-team-area .team-item ul li a i {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .six-team-area .team-item .team-bottom {
+        padding: 25px 0 25px;
+    }
+    .six-hour-area .hour-item .hour-inner {
+        padding-left: 40px;
+    }
+    .six-hour-area .hour-item .hour-inner h3 {
+        font-size: 17px;
+    }
+    .six-hour-area {
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+    .six-faq-area .faq-img {
+        max-width: 100%;
+    }
+    .one-counter-area .counter-item p {
+        padding-left: 110px;
+        font-size: 13px;
+    }
+    .one-contact-area .contact-content .contact-btn {
+        padding: 11px 11px 12px 8px;
+        font-size: 13px;
+    }
+
+    /*
+    New Demo Responsive CSS
+    ======================================================*/ 
+
+    .main-navbar {
+        .navbar {
+            &.navbar-light {
+                .navbar-nav {
+                    .nav-item {
+                        a {
+                            margin-left: 10px;
+                            margin-right: 10px;
+                        }
+                    }
+                }
+                .others-option {
+                    .option-item {
+                        .call-btn {
+                            display: none;
+                        }
+                    }
+                }
+            }
+            &.navbar-style-two {
+                &.navbar-light {
+                    .others-option {
+                        .option-item {
+                            .call-btn {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .about-style-content {
+        .counter-box {
+            padding: 20px;
+
+            h4 {
+                font-size: 40px;
+            }
+            span {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .core-service-list-tab {
+        .nav {
+            .nav-item {
+                .nav-link {
+                    padding: 20px 12px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    .buying-home-area {
+        .container-fluid {
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+        }
+    }
+    .buying-home-content {
+        .buying-inner-box {
+            padding-left: 70px;
+
+            .icon {
+                i {
+                    width: 50px;
+                    height: 50px;
+                    line-height: 50px;
+                    font-size: 35px;
+                }
+            }
+        }
+    }
+
+    .find-loan-officer-form {
+        padding: 35px 30px;
+    }
+
+    .need-help-faq-content {
+        max-width: 465px;
+    }
+    
+    .let-contact-form {
+        max-width: 465px;
+    }
+
+    .single-footer-widget {
+        h3 {
+            font-size: 18px;
+        }
+    }
+
+    .banner-buy-content {
+        h1 {
+            font-size: 60px;
+        }
+    }
+    .banner-buy-info-card {
+        padding-left: 50px;
+
+        .icon {
+            i {
+                height: 40px;
+                width: 40px;
+                line-height: 40px;
+                font-size: 20px;
+            }
+        }
+        p {
+            span {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .get-introduced-content {
+        max-width: 475px;
+
+        .introduced-inner-box {
+            padding: 35px 10px 35px 55px;
+
+            .icon {
+                left: 10px;
+
+                i {
+                    height: 35px;
+                    width: 35px;
+                    line-height: 35px;
+                    font-size: 16px;
+                }
+            }
+            span {
+                font-size: 14px;
+            }
+        }
+        .introduced-counter-item {
+            .counter-card {
+                h3 {
+                    font-size: 25px;
+                }
+                p {
+                    padding-left: 45px;
+                    padding-top: 0;
+                }
+            }
+        }
+    }
+
+    .video-overview-content {
+        padding-left: 20px;
+    }
+
+    .get-address-form {
+        padding: 35px 30px;
+    }
+
+    .better-home-area {
+        padding-top: 160px;
+
+        .social-links {
+            bottom: 0;
+        }
+    }
+    .better-home-content {
+        h1 {
+            font-size: 50px;
+        }
+    }
+
+    .information-card {
+        padding-left: 55px;
+
+        .icon {
+            i {
+                height: 45px;
+                width: 45px;
+                line-height: 45px;
+                font-size: 25px;
+            }
+        }
+        p {
+            font-size: 14px;
+        }
+    }
+
+    .mortgage-quote-area-with-full-width {
+        .mortgage-quote-content {
+            padding: 50px;
+        }
+    }
+
+    .fun-fact-style-card {
+        padding: 20px 20px 20px 75px;
+
+        h3 {
+            font-size: 32px;
+            top: 25px;
+            left: 25px;
+        }
+        p {
+            font-size: 15px;
+        }
+    }
+
+    .find-own-loan-slider {
+        &.owl-theme {
+            .owl-nav {
+                [class*=owl-] {
+                    left: 0;
+                    position: relative;
+                    top: unset;
+                    transform: unset;
+                    bottom: 0;
+                    margin: 0 10px;
+
+                    &.owl-next {
+                        right: 0;
+                        left: auto;
+                    }
+                }
+            }
+        }
+    }
+
+    .choice-home-area {
+        .container-fluid {
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+    }
+    .choice-home-information {
+        display: none;
+    }
+
+    .about-style-full-content {
+        max-width: 465px;
+        padding-right: 0;
+
+        h3 {
+            font-size: 35px;
+        }
+    }
+
+    .about-full-image-wrap {
+        .counter-box {
+            padding: 25px 20px;
+
+            h4 {
+                font-size: 32px;
+            }
+            span {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .faq-style-area-with-full-width-wrap {
+        .faq-style-accordion {
+            max-width: 465px;
+            padding-right: 0;
+        }
+    }
+
+    .blog-style-left-card {
+        .blog-content {
+            .post-meta {
+                li {
+                    font-size: 14px;
+
+                    .post-author {
+                        span {
+                            font-size: 14px;
+                        }
+                    }
+                    i {
+                        top: 0.8px;
+                    }
+                }
+            }
+        }
+    }
+
+    .confidence-home-content {
+        top: 0;
+
+        h1 {
+            font-size: 60px;
+        }
+    }
+
+    .why-choose-us-item {
+        padding: 20px;
+
+        .choose-content {
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .get-quote-style-area {
+        padding: {
+            top: 50px;
+            bottom: 50px;
+        };
+    }
+
+    .blog-style-card {
+        padding: 20px;
+
+        .post-meta {
+            li {
+                &:last-child {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .offer-style-area-with-full-width {
+        .container-fluid {
+            left: calc((100% - 960px)/2);
+            position: relative;
+        }
+    }
+    .offer-style-item {
+        .offer-content {
+            padding: 20px;
+        }
+    }
+
+    .fun-fact-style-item {
+        padding: 25px 25px 25px 75px;
+
+        h3 {
+            font-size: 30px;
+            top: 22.8px;
+            left: 25px;
+        }
+        p {
+            font-size: 14px;
+        }
+    }
+
+    .faq-style-area-with-full-width-wrap {
+        &.bg-transparent {
+            .faq-style-accordion {
+                padding-right: 30px;
+                padding-left: 0;
+            }
+        }
+    }
+
+    .process-style-wrap-image {
+        &::before {
+            height: 340px;
+            width: 400px;
+        }
+    }
+}
+
+@media only screen and (min-width : 1200px) and (max-width : 1399px) {
+
+    .one-banner-area .banner-text {
+        max-width: 565px;
+        padding-right: 30px;
+    }
+
+    /*
+    New Demo Responsive CSS
+    ======================================================*/ 
+    .main-navbar {
+        .navbar {
+            &.navbar-light {
+                .logo {
+                    padding: 0 30px 0 0;
+                }
+                .navbar-nav {
+                    .nav-item {
+                        a {
+                            margin-left: 10px;
+                            margin-right: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .core-service-list-tab {
+        .nav {
+            .nav-item {
+                .nav-link {
+                    padding: 20px 15px;
+                }
+            }
+        }
+    }
+
+    .buying-home-area {
+        .container-fluid {
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+        }
+    }
+
+    .need-help-faq-content {
+        max-width: 555px;
+    }
+
+    .let-contact-form {
+        max-width: 555px;
+    }
+
+    .banner-buy-info-card {
+        padding-left: 60px;
+
+        .icon {
+            i {
+                height: 45px;
+                width: 45px;
+                line-height: 45px;
+                font-size: 20px;
+            }
+        }
+    }
+
+    .get-introduced-content {
+        max-width: 555px;
+
+        .introduced-inner-box {
+            padding: 35px 20px 35px 65px;
+    
+            .icon {
+                left: 20px;
+    
+                i {
+                    height: 35px;
+                    width: 35px;
+                    line-height: 35px;
+                    font-size: 16px;
+                }
+            }
+            span {
+                font-size: 14px;
+            }
+        }
+        .introduced-counter-item {
+            .counter-card {
+                h3 {
+                    font-size: 25px;
+                }
+                p {
+                    padding-left: 45px;
+                    padding-top: 0;
+                }
+            }
+        }
+    }
+
+    .better-home-area {
+        padding-top: 120px;
+
+        .social-links {
+            bottom: 0;
+        }
+    }
+    .better-home-content {
+        h1 {
+            font-size: 50px;
+        }
+    }
+
+    .mortgage-quote-area-with-full-width {
+        .mortgage-quote-content {
+            padding: 50px;
+        }
+    }
+
+    .find-own-loan-slider {
+        &.owl-theme {
+            .owl-nav {
+                [class*=owl-] {
+                    left: 0;
+                    position: relative;
+                    top: unset;
+                    transform: unset;
+                    bottom: 0;
+                    margin: 0 10px;
+
+                    &.owl-next {
+                        right: 0;
+                        left: auto;
+                    }
+                }
+            }
+        }
+    }
+
+    .choice-home-information {
+        left: -12%;
+    }
+
+    .about-style-full-content {
+        max-width: 545px;
+    }
+    .about-full-image-wrap {
+        .counter-box {
+            padding: 25px 20px;
+
+            h4 {
+                font-size: 32px;
+            }
+            span {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .faq-style-area-with-full-width-wrap {
+        .faq-style-accordion {
+            max-width: 550px;
+            padding-right: 0;
+        }
+    }
+
+    .confidence-home-content {
+        h1 {
+            font-size: 70px;
+        }
+    }
+
+    .why-choose-us-item {
+        padding: 20px;
+    }
+
+    .offer-style-area-with-full-width {
+        .container-fluid {
+            left: calc((100% - 1140px)/2);
+        }
+    }
+
+    .process-style-wrap-image {
+        &::before {
+            height: 400px;
+            width: 485px;
+        }
+    }
+
+    .fun-fact-style-item {
+        padding: 25px 25px 25px 100px;
+
+        h3 {
+            font-size: 40px;
+            top: 22.8px;
+            left: 30px;
+        }
+        p {
+            font-size: 14px;
+        }
+    }
+
+    .faq-style-area-with-full-width-wrap {
+        &.bg-transparent {
+            .faq-style-accordion {
+                padding: {
+                    left: 0;
+                    right: 20px;
+                };
+            }
+        }
+    }
+}
+
+@media only screen and (min-width : 1400px) and (max-width : 1450px) {
+
+    /*
+    New Demo Responsive CSS
+    ======================================================*/ 
+
+    .find-own-loan-slider {
+        &.owl-theme {
+            .owl-nav {
+                [class*=owl-] {
+                    left: -45px;
+
+                    &.owl-next {
+                        right: -45px;
+                        left: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1800px) {
+
+    .one-banner-area .banner-text {
+        max-width: 906px;
+        padding-left: 15px;
+    }
+    .one-help-area .help-img {
+        top: 60px;
+        max-width: 565px;
+    }
+    .one-faq-area .faq-img {
+        max-width: 705px;
+    }
+    .five-banner-area .banner-shape img:nth-child(2) {
+        max-width: 920px;
+    }
+    .six-banner-area .banner-img {
+        left: 105px;
+    }
+
+}
+
+@media (min-width: 1300px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1320px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .navbar-light-four {
+        .navbar-toggler {
+            background-color: #fff;
+        }
+    }
+}
+
+@media only screen and (min-width: 1550px) {
+
+    /*
+    New Demo Responsive CSS
+    ======================================================*/ 
+
+    .main-top-header {
+        .container-fluid {
+            padding: {
+                left: 100px;
+                right: 100px;
+            };
+        }
+    }
+
+    .main-navbar {
+        .navbar {
+            .container-fluid {
+                padding: {
+                    left: 100px;
+                    right: 100px;
+                };
+            }
+        }
+    }
+
+    .main-header-area {
+        .main-navbar {
+            .container-fluid {
+                padding: {
+                    left: 100px;
+                    right: 100px;
+                };
+            }
+            .navbar {
+                &.is-sticky {
+                    &.navbar-light {
+                        padding: {
+                            left: 100px;
+                            right: 100px;
+                        };
+                    }
+                }
+            }
+        }
+    }
+
+    .main-banner-area {
+        .container-fluid {
+            padding: {
+                left: 100px;
+                right: 100px;
+            };
+        }
+    }
+
+    .banner-buy-area {
+        .container-fluid {
+            padding: {
+                left: 100px;
+                right: 100px;
+            };
+        }
+    }
+    
+    .better-home-area {
+        .container-fluid {
+            padding: {
+                left: 100px;
+                right: 100px;
+            };
+        }
+        .social-links {
+            left: 100px;
+        }
+    }
+
+    .choice-home-area {
+        .container-fluid {
+            padding: {
+                left: 250px;
+                right: 100px;
+            };
+        }
+    }
+    .choice-home-content {
+        h1 {
+            font-size: 85px;
+        }
+    }
+    .choice-home-information {
+        left: -8%;
+    }
+
+    .confidence-home-area {
+        .container-fluid {
+            padding: {
+                left: 100px;
+                right: 100px;
+            };
+        }
+    }
+
+    .offer-style-item {
+        .offer-content {
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+}

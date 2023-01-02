@@ -1,0 +1,351 @@
+doctype html
+// Basic
+meta(charset='utf-8')
+meta(http-equiv='X-UA-Compatible' content='IE=edge')
+// Mobile Metas
+meta(name='viewport' content='width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no')
+// Site Metas
+title CITY Real Estate - Responsive HTML5 Landing Page Template
+meta(name='keywords' content='')
+meta(name='description' content='')
+meta(name='author' content='')
+// Site Icons
+link(rel='shortcut icon' href='images/favicon.ico' type='image/x-icon')
+link(rel='apple-touch-icon' href='images/apple-touch-icon.png')
+// Bootstrap CSS
+link(rel='stylesheet' href='css/bootstrap.min.css')
+// Site CSS
+link(rel='stylesheet' href='style.css')
+// Colors CSS
+link(rel='stylesheet' href='css/colors.css')
+// ALL VERSION CSS
+link(rel='stylesheet' href='css/versions.css')
+// Responsive CSS
+link(rel='stylesheet' href='css/responsive.css')
+// Custom CSS
+link(rel='stylesheet' href='css/custom.css')
+// Modernizer for Portfolio
+script(src='js/modernizer.js')
+//if lt IE 9
+  script(src='https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js')
+  script(src='https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js')
+// LOADER
+#preloader
+  span.loader
+    span.loader-inner
+// end loader
+// END LOADER
+header.header.header_style_01
+  nav.megamenu.navbar.navbar-default
+    .container-fluid
+      .navbar-header
+        button.navbar-toggle.collapsed(type='button' data-toggle='collapse' data-target='#navbar' aria-expanded='false' aria-controls='navbar')
+          span.sr-only Toggle navigation
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+        a.navbar-brand(href='index.html')
+          img(src='images/logos/logo.png' alt='image')
+      #navbar.navbar-collapse.collapse
+        ul.nav.navbar-nav.navbar-right
+          li
+            a(href='index.html') Home
+          li
+            a.active(href='about.html') About us 
+          li
+            a(href='service.html') Service
+          li
+            a(href='gallery.html') Gallery
+          li
+            a(href='properties.html') Properties
+          li
+            a(href='contact.html') Contact
+          li.social-links
+            a(href='#')
+              i.fa.fa-twitter.global-radius
+          li.social-links
+            a(href='#')
+              i.fa.fa-facebook.global-radius
+          li.social-links
+            a(href='#')
+              i.fa.fa-linkedin.global-radius
+          li.search-option
+            button#searchDropdown.search.tran3s.dropdown-toggle(data-toggle='dropdown' aria-haspopup='true' aria-expanded='false')
+              i.fa.fa-search(aria-hidden='true')
+            form.p-color-bg.dropdown-menu.tran3s(action='#' aria-labelledby='searchDropdown')
+              input(type='text' placeholder='Search....')
+              button.p-color-bg
+                i.fa.fa-search(aria-hidden='true')
+.all-title-box
+  .container
+    .row
+      .col-md-12
+        h2 About Us
+        // Breadcrumbs
+        nav#breadcrumbs
+          ul
+            li
+              a(href='#') Home
+            li About Us
+.about-box
+  .container
+    .row
+      .top-feature.owl-carousel.owl-theme
+        .item
+          .single-feature
+            .icon
+              img.img-responsive(src='uploads/icon-01.png' alt='')
+            h4
+              a(href='#') Full Furnished
+            p
+              | Mauris eu porta orci. In at erat enim. Suspendisse felis erat, volutpat at nisl sit amet, maximus molestie nisi.
+        .item
+          .single-feature
+            .icon
+              img.img-responsive(src='uploads/icon-02.png' alt='')
+            h4
+              a(href='#') Living Inside a Nature
+            p
+              | Mauris eu porta orci. In at erat enim. Suspendisse felis erat, volutpat at nisl sit amet, maximus molestie nisi.
+        .item
+          .single-feature
+            .icon
+              img.img-responsive(src='uploads/icon-03.png' alt='')
+            h4
+              a(href='#') Luxurious Fittings
+            p
+              | Mauris eu porta orci. In at erat enim. Suspendisse felis erat, volutpat at nisl sit amet, maximus molestie nisi.
+        .item
+          .single-feature
+            .icon
+              img.img-responsive(src='uploads/icon-04.png' alt='')
+            h4
+              a(href='#') Non Stop Security
+            p
+              | Lorem Is a dummy Mauris eu porta orci. In at erat enim. Suspendisse felis erat, volutpat at nisl sit amet, maximus molestie nisi.
+    hr.hr1
+    .row
+      .col-md-6
+        .post-media.wow.fadeIn(style='visibility: visible; animation-name: fadeIn;')
+          img.img-responsive(src='uploads/about_bg.jpg' alt='')
+        // end media
+      .col-md-6
+        .message-box.right-ab
+          h4 Awards Winning Real Estate Company
+          h2 Welcome to CITY Real Estate
+          p
+            | Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus. Sed a tellus quis mi rhoncus dignissim.
+          p
+            | Aenean eleifend in felis id viverra. Vestibulum semper ex eu molestie pulvinar. Maecenas non efficitur metus, et semper sem. Mauris ligula sapien, gravida a scelerisque ut, vehicula sed mauris. Proin dapibus mi id vulputate euismod. Nam ullamcorper dui tellus, non lacinia lorem hendrerit eu. Donec at orci cursus, rutrum metus eget, cursus turpis.
+          a.btn.btn-light.btn-radius.grd1.btn-brd(href='#')  Read More 
+#testimonials.section.lb
+  .container
+    .section-title.row.text-center
+      .col-md-8.col-md-offset-2
+        h3 Happy Customers
+        p.lead
+          | Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus. Sed a tellus quis mi rhoncus dignissim.
+      // end col
+    // end title
+    .row
+      .col-md-12.col-sm-12
+        .testi-carousel.owl-carousel.owl-theme
+          .testimonial.clearfix
+            .desc
+              h3
+                i.fa.fa-quote-left
+                |  Wonderful Support! 
+                i.fa.fa-quote-right
+              p.lead
+                | They have got my project on time with the competition with a sed highly skilled, and experienced &amp; professional team.
+            .testi-meta
+              img.img-responsive.alignleft(src='uploads/testi_01.png' alt='')
+              h4
+                | James Fernando 
+                small - Manager of Racer
+            // end testi-meta
+          // end testimonial
+          .testimonial.clearfix
+            .desc
+              h3
+                i.fa.fa-quote-left
+                |  Awesome Services! 
+                i.fa.fa-quote-right
+              p.lead
+                | Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you completed.
+            .testi-meta
+              img.img-responsive.alignleft(src='uploads/testi_02.png' alt='')
+              h4
+                | Jacques Philips 
+                small - Designer
+            // end testi-meta
+          // end testimonial
+          .testimonial.clearfix
+            .desc
+              h3
+                i.fa.fa-quote-left
+                |  Great &amp; Talented Team! 
+                i.fa.fa-quote-right
+              p.lead
+                | The master-builder of human happines no one rejects, dislikes avoids pleasure itself, because it is very pursue pleasure.
+            .testi-meta
+              img.img-responsive.alignleft(src='uploads/testi_03.png' alt='')
+              h4
+                | Venanda Mercy 
+                small - Newyork City
+            // end testi-meta
+          // end testimonial
+          .testimonial.clearfix
+            .desc
+              h3
+                i.fa.fa-quote-left
+                |  Wonderful Support! 
+                i.fa.fa-quote-right
+              p.lead
+                | They have got my project on time with the competition with a sed highly skilled, and experienced &amp; professional team.
+            .testi-meta
+              img.img-responsive.alignleft(src='uploads/testi_01.png' alt='')
+              h4
+                | James Fernando 
+                small - Manager of Racer
+            // end testi-meta
+          // end testimonial
+          .testimonial.clearfix
+            .desc
+              h3
+                i.fa.fa-quote-left
+                |  Awesome Services! 
+                i.fa.fa-quote-right
+              p.lead
+                | Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you completed.
+            .testi-meta
+              img.img-responsive.alignleft(src='uploads/testi_02.png' alt='')
+              h4
+                | Jacques Philips 
+                small - Designer
+            // end testi-meta
+          // end testimonial
+          .testimonial.clearfix
+            .desc
+              h3
+                i.fa.fa-quote-left
+                |  Great &amp; Talented Team! 
+                i.fa.fa-quote-right
+              p.lead
+                | The master-builder of human happines no one rejects, dislikes avoids pleasure itself, because it is very pursue pleasure.
+            .testi-meta
+              img.img-responsive.alignleft(src='uploads/testi_03.png' alt='')
+              h4
+                | Venanda Mercy 
+                small - Newyork City
+            // end testi-meta
+          // end testimonial
+        // end carousel
+      // end col
+    // end row
+  // end container
+// end section
+footer.footer
+  .container
+    .row
+      .col-md-4.col-sm-4.col-xs-12
+        .widget.clearfix
+          .widget-title
+            img(src='images/logos/logo-realestate.png' alt='')
+          p
+            | Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis nibh sed tellus faucibus bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis dis montes.
+          p
+            | Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis dis montes.
+        // end clearfix
+      // end col
+      .col-md-3.col-sm-3.col-xs-12
+        .widget.clearfix
+          .widget-title
+            h3 Info Link
+          ul.twitter-widget.footer-links
+            li
+              a(href='#')  Home 
+            li
+              a(href='#')  About Us 
+            li
+              a(href='#')  Services
+            li
+              a(href='#')  Gallery
+            li
+              a(href='#')  Properties
+            li
+              a(href='#')  Contact
+          // end links
+        // end clearfix
+      // end col
+      .col-md-3.col-sm-3.col-xs-12
+        .widget.clearfix
+          .widget-title
+            h3 Contact Details
+          ul.footer-links
+            li
+              a(href='mailto:#') info@yoursite.com
+            li
+              a(href='#') www.yoursite.com
+            li PO Box 16122 Collins Street West Victoria 8007 Australia
+            li +61 3 8376 6284
+          // end links
+        // end clearfix
+      // end col
+      .col-md-2.col-sm-2.col-xs-12
+        .widget.clearfix
+          .widget-title
+            h3 Social
+          ul.footer-links
+            li
+              a(href='#')
+                i.fa.fa-facebook
+                |  Facebook
+            li
+              a(href='#')
+                i.fa.fa-github
+                |  Github
+            li
+              a(href='#')
+                i.fa.fa-twitter
+                |  Twitter
+            li
+              a(href='#')
+                i.fa.fa-dribbble
+                |  Dribbble
+            li
+              a(href='#')
+                i.fa.fa-pinterest
+                |  Pinterest
+          // end links
+        // end clearfix
+      // end col
+    // end row
+  // end container
+// end footer
+.copyrights
+  .container
+    .footer-distributed
+      .footer-left
+        p.footer-company-name
+          | All Rights Reserved. &copy; 2018 
+          a(href='#') City Real Estate
+          |  Design By : 
+          a(href='https://html.design/') html design
+      .footer-right
+        form(method='get' action='#')
+          input(placeholder='Subscribe our newsletter..' name='search')
+          i.fa.fa-envelope-o
+  // end container
+// end copyrights
+a#scroll-to-top.dmtop.global-radius(href='#')
+  i.fa.fa-angle-up
+// ALL JS FILES
+script(src='js/all.js')
+// ALL PLUGINS
+script(src='js/custom.js')
+script(src='js/portfolio.js')
+script(src='js/hoverdir.js')
+script(src='http://maps.googleapis.com/maps/api/js?sensor=false&libraries=places')
+// MAP & CONTACT
+script(src='js/map.js')

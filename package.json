@@ -1,0 +1,41 @@
+{
+    "name": "MY SCHOOL PROJECT",
+    "version": "1.0.0",
+    "description": "",
+    "main": "start.js",
+    "scripts": {
+        "pro": "node ./start.js",
+        "watch": "nodemon ./start.js --ignore public/",
+        "start": "concurrently \"npm run watch\" \"npm run assets\" --names \"💻,📦\" --prefix name",
+        "assets": "webpack"
+    },
+    "author": "abba danmusa",
+    "license": "ISC",
+    "dependencies": {
+        "@tensorflow/tfjs": "^3.13.0",
+        "@tensorflow/tfjs-vis": "^1.5.1",
+        "babel-core": "^6.26.3",
+        "babel-loader": "^8.2.3",
+        "body-parser": "^1.19.1",
+        "concurrently": "^7.0.0",
+        "connect-flash": "^0.1.1",
+        "connect-mongo": "^4.6.0",
+        "cookie-parser": "^1.4.6",
+        "dotenv": "^16.0.0",
+        "es6-promisify": "^7.0.0",
+        "express": "^4.17.2",
+        "express-session": "^1.17.2",
+        "moment": "^2.29.1",
+        "mongoose": "^6.2.2",
+        "mongoose-mongodb-errors": "^0.0.2",
+        "nodemon": "^2.0.15",
+        "passport": "^0.5.2",
+        "passport-local-mongoose": "^6.1.0",
+        "pug": "^3.0.2",
+        "validator": "^13.7.0",
+        "webpack": "^5.68.0"
+    },
+    "devDependencies": {
+        "webpack-cli": "^4.9.2"
+    }
+}
