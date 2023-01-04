@@ -1,6 +1,22 @@
 import * as tf from '@tensorflow/tfjs'
 import * as tfvis from '@tensorflow/tfjs-vis'
 
+const storageID = `kc-house-price-regression`
+
+const toggleButton = document.getElementById('toggle-button')
+const trainButton = document.getElementById('train-button')
+const testButton = document.getElementById('test-button')
+const loadButton = document.getElementById('load-button')
+const saveButton = document.getElementById('save-button')
+const predictButton = document.getElementById('predict-button')
+
+toggleButton.addEventListener('click', toggleVisor)
+trainButton.addEventListener('click', train)
+testButton.addEventListener('click', test)
+loadButton.addEventListener('click', load)
+saveButton.addEventListener('click', save)
+predictButton.addEventListener('click', predict)
+
 function plot(pointsArray, featureName, predictedPointsArray = null) {
     // const values = [pointsArray.slice(0, 1000)]
     const values = [pointsArray]
@@ -55,9 +71,11 @@ function denormalise(tensor, min, max) {
     return denormaliseTensor
 }
 
+let model = null
+
 function createModel() {
     // create a sequential model
-    const model = tf.sequential()
+    model = tf.sequential()
 
     model.add(tf.layers.dense({
         units: 1,
@@ -116,31 +134,10 @@ async function trainModel(model, trainingFeatureTensor, trainingLabelTensor) {
     })
 }
 
-function predict() {
-    const predictionInput = parseInt(document.querySelector('#sqrfoot').value)
-    if (isNaN(predictionInput)) {
-        alert('Square foot must be a number, Please enter a valid number')
-    } else {
-        tf.tidy(() => {
-            const inputTensor = tf.tensor1d([predictionInput])
-            const normalisedInput = normalise(inputTensor, normalisedFeature.min, normalisedFeature.max)
-            const normalisedOutputTensor = model.predict(normalisedInput.tensor)
-            const outputTensor = denormalise(normalisedOutputTensor, normalisedLabel.min, normalisedLabel.max)
-            const outputValue = outputTensor.dataSync()[0]
-
-            // show the predicted price
-            alert(`The predicted price is ${outputValue}`)
-        })
-    }
-
-}
-
-// setTimeout(() => {
-//     const submitBtn = document.querySelector('#submitBtn')
-//     submitBtn.addEventListener('click', predict)
-// }, 5000)
-
-let normalisedFeature, normalisedLabel, points, model
+let normalisedFeature, points
+let normalisedLabel
+let trainingFeatureTensor, trainingLabelTensor
+let testingFeatureTensor, testingLabelTensor
 
 async function dataSet() {
 
@@ -176,10 +173,81 @@ async function dataSet() {
     // normalise features and labels
     normalisedFeature = normalise(featureTensor)
     normalisedLabel = normalise(labelTensor)
+    featureTensor.dispose();
+    labelTensor.dispose();
 
     // split the normalised tensors [feature and label] into training and testing datasets
-    const [trainingFeatureTensor, testingFeatureTensor] = tf.split(normalisedFeature.tensor, 2)
-    const [trainingLabelTensor, testingLabelTensor] = tf.split(normalisedLabel.tensor, 2)
+    [trainingFeatureTensor, testingFeatureTensor] = tf.split(normalisedFeature.tensor, 2)
+
+    [trainingLabelTensor, testingLabelTensor] = tf.split(normalisedLabel.tensor, 2)
+
+
+    // Update status and enable train button
+    document.getElementById("model-status").innerHTML = "No model trained"
+    document.getElementById("train-button").removeAttribute("disabled")
+    document.getElementById("load-button").removeAttribute("disabled")
+}
+
+function predict() {
+
+    const predictionInput = parseInt(document.getElementById("prediction-input").value)
+
+    if (isNaN(predictionInput)) {
+        alert("Please enter a valid number")
+    } else {
+        tf.tidy(() => {
+            const inputTensor = tf.tensor1d([predictionInput])
+            const normalisedInput = normalise(inputTensor, normalisedFeature.min, normalisedFeature.max);
+            const normalisedOutputTensor = model.predict(normalisedInput.tensor)
+            const outputTensor = denormalise(normalisedOutputTensor, normalisedLabel.min, normalisedLabel.max)
+            const outputValue = outputTensor.dataSync()[0]
+            document.getElementById("prediction-output").innerHTML = `The predicted house price is: <br />` +
+                `<span style="font-size: 2em">\$${(outputValue/1000).toFixed(0)*1000}</span>`
+        })
+    }
+}
+
+async function load() {
+    const storageKey = `localstorage://${storageID}`;
+    const models = await tf.io.listModels();
+    const modelInfo = models[storageKey];
+    if (modelInfo) {
+        model = await tf.loadLayersModel(storageKey);
+
+        tfvis.show.modelSummary({ name: "Model summary" }, model);
+        const layer = model.getLayer(undefined, 0);
+        tfvis.show.layer({ name: "Layer 1" }, layer);
+
+        document.getElementById("model-status").innerHTML = `Trained (saved ${modelInfo.dateSaved})`;
+        document.getElementById("predict-button").removeAttribute("disabled");
+    } else {
+        alert("Could not load: no saved model found");
+    }
+    document.getElementById("predict-button").removeAttribute("disabled")
+    await plotPredictionLine()
+}
+
+async function save() {
+    const saveResults = await model.save(`localstorage://${storageID}`)
+    document.getElementById("model-status").innerHTML = `Trained (saved ${saveResults.modelArtifactsInfo.dateSaved})`
+}
+
+async function test() {
+
+    const lossTensor = model.evaluate(testingFeatureTensor, testingLabelTensor)
+    const loss = await lossTensor.dataSync()
+    console.log(`Testing set loss ${loss}`)
+
+    document.getElementById("testing-status").innerHTML = `Testing set loss: ${loss.toPrecision(5)}`
+}
+
+async function train() {
+
+    // Disable all buttons and update status
+    ["train", "test", "load", "predict", "save"].forEach(id => {
+        document.getElementById(`${id}-button`).setAttribute("disabled", "disabled");
+    });
+    document.getElementById("model-status").innerHTML = "Training..."
 
     model = createModel()
     tfvis.show.modelSummary({ name: 'Model Summary' }, model)
@@ -189,8 +257,6 @@ async function dataSet() {
 
     const result = await trainModel(model, trainingFeatureTensor, trainingLabelTensor)
 
-    // await model.save('/model/model.json')
-
     // console.log(result)
     const trainingLoss = result.history.loss.pop()
     console.log(`Training set loss: ${trainingLoss}`)
@@ -198,10 +264,15 @@ async function dataSet() {
     const validationLoss = result.history.val_loss.pop()
     console.log(`Validation loss ${validationLoss}`)
 
-    const lossTensor = model.evaluate(testingFeatureTensor, testingLabelTensor)
-    const loss = await lossTensor.dataSync()
-    console.log(`Testing set loss ${loss}`)
+    document.getElementById("model-status").innerHTML = `Trained (unsaved)\nLoss: ${trainingLoss.toPrecision(5)}\nValidation loss: ${validationLoss.toPrecision(5)}`;
 
+    document.getElementById("test-button").removeAttribute("disabled")
+    document.getElementById("save-button").removeAttribute("disabled")
+    document.getElementById("predict-button").removeAttribute("disabled")
+}
+
+async function toggleVisor() {
+    tfvis.visor().toggle()
 }
 
 export async function plotParams(weight, bias) {
